@@ -1,0 +1,408 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "object",
+    "allow_options_addition_in_editor": true,
+    "autosize": true,
+    "bottom_x_legend_position": "0",
+    "bottom_y_legend_position": "-0.2",
+    "caching": false,
+    "chart_font_color": "var(--DHQ-primary-font-color)",
+    "chart_type_dropdown": "barchart",
+    "cid": "c34RMFMuO4rlVsvocsVx",
+    "class_name": "test",
+    "columnConfig": [
+        {
+            "type": "",
+            "name": "Sales",
+            "aggregate": "sum",
+            "color": "",
+            "map_id": "Sales"
+        },
+        {
+            "type": "",
+            "name": "Marketing",
+            "aggregate": "sum",
+            "color": "",
+            "map_id": "Marketing"
+        },
+        {
+            "type": "",
+            "name": "R&D",
+            "aggregate": "sum",
+            "color": "",
+            "map_id": "R&D"
+        },
+        {
+            "type": "",
+            "name": "Support",
+            "aggregate": "sum",
+            "color": "",
+            "map_id": "Support"
+        }
+    ],
+    "columnConfigDefault": {
+        "type": "",
+        "name": "",
+        "aggregate": "sum",
+        "color": ""
+    },
+    "ctrl_id": "",
+    "custom_data": "uidata",
+    "custom_layout": "uilayout",
+    "data_labels": true,
+    "data_submission_enabled": true,
+    "data_type": "string",
+    "default_field_options_structure": {
+        "code": "#26BC6A"
+    },
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "for_localization",
+            "dhq_config",
+            "show_new_property"
+        ],
+        "update_to_theme_varaibles": [
+            "height",
+            "height_unit",
+            "label_font_size",
+            "label_font_size_unit",
+            "label_font_weight",
+            "label_text_color"
+        ]
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {
+        "Year": "Year",
+        "Sales": "Sales",
+        "Marketing": "Marketing",
+        "R&D": "R&D",
+        "Support": "Support"
+    },
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 12,
+        "h": 47,
+        "x": 3,
+        "y": 2
+    },
+    "dhqGridChanged": false,
+    "dhqGridDesktop": {
+        "w": 12,
+        "h": 47,
+        "x": 3,
+        "y": 2
+    },
+    "disabled": false,
+    "dynamic_color": false,
+    "field_available_in_database_editor": false,
+    "field_client_side_get_data_enabled": true,
+    "field_composition_type": "list",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_default_value_query": "",
+    "field_data_model_binding_default_value_query_with_id": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "DATABUILDER()",
+    "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+    "field_data_model_binding_type": "manual_query",
+    "field_database_editor_data_format": "single_select",
+    "field_datatypes": [
+        {
+            "field": "Year",
+            "display_name": "Year",
+            "data_type": "number",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "Sales",
+            "display_name": "Sales",
+            "data_type": "number",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "Marketing",
+            "display_name": "Marketing",
+            "data_type": "number",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "R&D",
+            "display_name": "R&D",
+            "data_type": "number",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "Support",
+            "display_name": "Support",
+            "data_type": "number",
+            "field_database_editor_data_format": "single_line_text"
+        }
+    ],
+    "field_display_key_name": "charts",
+    "field_editable_in_database_editor": false,
+    "field_fullview": false,
+    "field_key_name": "dhq_graphs_c34RMFMuO4rlVsvocsVx",
+    "field_options": {
+        "options": [
+            {
+                "code": "#26BC6A"
+            }
+        ]
+    },
+    "field_responsive": false,
+    "field_schema_column_header_names": "Year,Sales,Marketing,R&D,Support",
+    "field_schema_column_id_header_name_mapping": {
+        "Year": "Year",
+        "Sales": "Sales",
+        "Marketing": "Marketing",
+        "R&D": "R&D",
+        "Support": "Support"
+    },
+    "field_type": "dhq_graphs",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "",
+    "for_localization": {
+        "static_msgs": [
+            "Inappropriate Data"
+        ],
+        "dynamic_msgs_keys": [
+            "label",
+            "tooltip",
+            "tip_description"
+        ],
+        "concated_msgs": []
+    },
+    "formbuilder_theme": "#bbbbbb",
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "h_orientation": "h",
+    "height": "25",
+    "height_unit": "rem",
+    "hidden": false,
+    "hiddenColumnList": [],
+    "hide_list_dfm": true,
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_master_control": true,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "label": "Charts",
+    "label_font_size": "var(--DHQ-control-title)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": true,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "labels": "Month",
+    "layout": {
+        "font": {
+            "family": "Montserrat, sans-serif"
+        },
+        "showlegend": true,
+        "clickmode": "select+event",
+        "dragmode": "select",
+        "autosize": true,
+        "margin": {
+            "l": 40,
+            "r": 0,
+            "t": 40,
+            "b": 40,
+            "pad": 0
+        },
+        "xaxis": {
+            "title": "X axis title"
+        },
+        "yaxis": {
+            "title": "Y axis title",
+            "zeroline": true,
+            "gridwidth": 2
+        },
+        "bargap": 0.1,
+        "grid": {
+            "rows": 0,
+            "columns": 0
+        }
+    },
+    "left_x_legend_position": "-0.25",
+    "left_y_legend_position": "0.5",
+    "legends": true,
+    "legends_align": "bottom",
+    "marginValue": {
+        "margin": {
+            "top": "40",
+            "bottom": "40",
+            "right": "0",
+            "left": "40"
+        },
+        "padding": {
+            "top": "0",
+            "bottom": "0",
+            "right": "0",
+            "left": "0"
+        }
+    },
+    "modeBar": true,
+    "padding": "0",
+    "padding_unit": "px",
+    "paper_background": "transparent",
+    "parent_id": "",
+    "plot_background": "transparent",
+    "required": false,
+    "right_x_legend_position": "1",
+    "right_y_legend_position": "0.5",
+    "show_description": false,
+    "show_dfm": false,
+    "show_new_property": true,
+    "show_tooltip": false,
+    "show_x_label": true,
+    "show_y_label": true,
+    "sid": "sc34RMFMuO4rlVsvocsVx",
+    "stacked": false,
+    "tabIndex": "",
+    "tip_description": "",
+    "title": "Chart Title",
+    "title_visible": false,
+    "tooltip": "",
+    "top_x_legend_position": "0",
+    "top_y_legend_position": "1.2",
+    "trace": [
+        {
+            "x": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct"
+            ],
+            "y": [
+                21,
+                32,
+                19,
+                8,
+                26,
+                31,
+                37,
+                16,
+                25,
+                30
+            ],
+            "name": "China",
+            "type": "bar"
+        },
+        {
+            "x": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct"
+            ],
+            "y": [
+                5,
+                15,
+                11,
+                17,
+                5,
+                2,
+                28,
+                14,
+                19,
+                8
+            ],
+            "name": "Thiland",
+            "mode": "lines+markers",
+            "type": "scatter"
+        },
+        {
+            "x": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct"
+            ],
+            "y": [
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52
+            ],
+            "name": "India",
+            "mode": "markers",
+            "type": "scatter"
+        }
+    ],
+    "type": "non_input",
+    "unique_name_change": false,
+    "v_orientation": "v",
+    "values": "India",
+    "visibility": true,
+    "width": "400",
+    "width_unit": "px",
+    "wrapper_content_alignment": "flex-start",
+    "x_axis_title": "X Axis Title",
+    "x_axis_type": "default",
+    "x_axis_values": "Year",
+    "xAxisTitle": "",
+    "y_axis_title": "Y Axis Title",
+    "y_axis_type": "default",
+    "y_axis_values": [
+        "Sales",
+        "Marketing",
+        "R&D",
+        "Support"
+    ],
+    "yAxisTitle": "",
+    "zeroline": true
+}

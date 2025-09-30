@@ -1,0 +1,11 @@
+[
+    {
+        "alias": "file",
+        "name": "fileupload1",
+        "id": "image_upload_c173RfcuvnG1Lc0weAZxn",
+        "testValue": "[\"\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team29185/uploads/vc6Q5KlKrB.png]",
+        "testValueType": {
+            "length": 0
+        }
+    }
+]

@@ -1,0 +1,105 @@
+{
+    "api_id": 1,
+    "api_name": "variable_RRKC6PAlUFQFbtta51758883652418",
+    "cat_id": "__REPLACE_CAT_ID_7___",
+    "cat_name": "__REPLACE_CAT_NAME_7___",
+    "sub_cat_id": "__REPLACE_SUB_CAT_ID_1188___",
+    "sub_cat_name": "__REPLACE_SUB_CAT_NAME_1188___",
+    "cat_icon_url": "./Images/dblogos/restapi.png",
+    "method": "post",
+    "query": {},
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "application/json",
+        "formdata": {},
+        "variables": {
+            "templateId": {
+                "keyName": "templateId",
+                "spanName": null,
+                "isField": true,
+                "keyType": "text",
+                "keyValue": "68d66ecd672e1d86f24f0e56",
+                "testValue": "68d66ecd672e1d86f24f0e56",
+                "preselect": true,
+                "name": "ChartsPDF",
+                "label": "ChartsPDF",
+                "isDynamic": false,
+                "editor_type": "JSEditor"
+            },
+            "pdfName": {
+                "keyName": "pdfName",
+                "spanName": null,
+                "isField": true,
+                "keyType": "text",
+                "keyValue": "",
+                "testValue": "",
+                "preselect": false,
+                "name": "",
+                "isDynamic": false,
+                "editor_type": "JSEditor"
+            },
+            "password": {
+                "keyName": "password",
+                "spanName": null,
+                "isField": true,
+                "keyType": "text",
+                "keyValue": "",
+                "testValue": "",
+                "preselect": false,
+                "name": "",
+                "isDynamic": false,
+                "editor_type": "JSEditor"
+            },
+            "ChartHTML_1758883562426": {
+                "keyName": "ChartHTML_1758883562426",
+                "spanName": "ChartHTML",
+                "isField": true,
+                "keyType": "text",
+                "keyValue": "{{variable_Rqj9MmXSj7wqR8LKq1758882798325}}",
+                "testValue": "<!DOCTYPE html><html lang=\"en\"><head>    <meta charset=\"UTF-8\">    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">    <title>Bar Chart Example</title>    <!-- 1. Include Chart.js library from a CDN -->    <script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>    <!-- 2. Include Tailwind CSS for styling the container -->    <script src=\"https://cdn.tailwindcss.com\"></script>    <style>        body, html { height: 100%; font-family: 'Inter', sans-serif; }    </style></head><body class=\"bg-gray-100 flex items-center justify-center h-full p-4\">    <div class=\"bg-white p-6 rounded-lg shadow-lg w-full max-w-4xl\">        <canvas id=\"myBarChart\"></canvas>    </div>    <script>        // 4. The raw data is now dynamically injected into the script        const rawData = [{\"Month\":\"Jan\",\"China\":21,\"Thailand\":5,\"India\":42,\"Bangladesh\":32,\"Cambodia\":66},{\"Month\":\"Feb\",\"China\":32,\"Thailand\":15,\"India\":65,\"Bangladesh\":67,\"Cambodia\":56},{\"Month\":\"Mar\",\"China\":19,\"Thailand\":11,\"India\":78,\"Bangladesh\":38,\"Cambodia\":71},{\"Month\":\"Apr\",\"China\":8,\"Thailand\":17,\"India\":32,\"Bangladesh\":23,\"Cambodia\":24},{\"Month\":\"Oct\",\"China\":30,\"Thailand\":8,\"India\":44,\"Bangladesh\":12,\"Cambodia\":16}];        // Check if data is valid before proceeding        if (!rawData || rawData.length === 0) {            console.error(\"Chart data is empty or invalid.\");            // You could display a message on the canvas here        } else {            // 5. Prepare the data for Chart.js            const labels = rawData.map(item => Object.values(item)[0]);            const seriesKeys = Object.keys(rawData[0]).filter(key => key !== Object.keys(rawData[0])[0]);            const seriesColors = {                'China': 'rgba(59, 130, 246, 0.8)', 'Thailand': 'rgba(249, 115, 22, 0.8)',                'India': 'rgba(34, 197, 94, 0.8)', 'Bangladesh': 'rgba(239, 68, 68, 0.8)',                'Cambodia': 'rgba(168, 85, 247, 0.8)'            };            const seriesBorderColors = {                'China': 'rgba(59, 130, 246, 1)', 'Thailand': 'rgba(249, 115, 22, 1)',                'India': 'rgba(34, 197, 94, 1)', 'Bangladesh': 'rgba(239, 68, 68, 1)',                'Cambodia': 'rgba(168, 85, 247, 1)'            };            const datasets = seriesKeys.map(key => ({                label: key,                data: rawData.map(item => item[key]),                backgroundColor: seriesColors[key] || `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, 0.8)`,                borderColor: seriesBorderColors[key] || `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, 1)`,                borderWidth: 1,                borderRadius: 4            }));            // 6. Get the canvas context and create the chart            const ctx = document.getElementById('myBarChart').getContext('2d');            const myBarChart = new Chart(ctx, {                type: 'bar',                data: { labels, datasets },                options: {                    responsive: true,                    maintainAspectRatio: true,                    plugins: {                        legend: { position: 'bottom', labels: { padding: 20, font: { size: 14 } } },                        title: { display: true, text: 'Monthly Data by Country', font: { size: 18, weight: 'bold' }, padding: { top: 10, bottom: 20 } },                        tooltip: {                            callbacks: {                               title: (tooltipItems) => tooltipItems[0].dataset.label,                               label: (tooltipItem) => `(${tooltipItem.label}, ${tooltipItem.formattedValue})`                            }                        }                    },                    scales: {                        y: { beginAtZero: true, title: { display: true, text: 'Y Axis Title', font: { size: 16 } } },                        x: { title: { display: true, text: 'X Axis Title', font: { size: 16 } } }                    }                }            });        }    </script></body></html>",
+                "preselect": false,
+                "name": "",
+                "label": "",
+                "isDynamic": true,
+                "editor_type": "JSEditor"
+            }
+        }
+    },
+    "auth": {
+        "environment_config": {
+            "env_1": "__REPLACE_ACCOUNT_ID_7___",
+            "env_2": "",
+            "env_3": ""
+        },
+        "type": "api_key",
+        "account_id": "__REPLACE_ACCOUNT_ID_7___",
+        "whitelist_ip": false
+    },
+    "triggerOnPageload": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "error_msg": "",
+    "filterKeysOptions": {},
+    "scheme_type": "api_key",
+    "account_id": "__REPLACE_ACCOUNT_ID_7___",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "allow_offline_submission": false,
+    "download_as_file": false,
+    "secureResponse": false,
+    "rawResponse": {
+        "pdfFile": "http://wsl.localhost:8080/filerepository/files/DRONA5_Team2/pdfOutput/PDFGenerated_1758883697684_1758883697684/PDFGenerated_1758883697684.pdf"
+    },
+    "processedResp": {},
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "autoTransform": false,
+    "cat_type": null
+}

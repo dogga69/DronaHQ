@@ -1,0 +1,50 @@
+{
+    "condition_name": "condition1",
+    "field_name": "",
+    "c_id": "RPhqktaeQuV",
+    "mode": "UI",
+    "conditions": [
+        [
+            {
+                "field1": {
+                    "id": "textarea_c78Ro5eIRmUZlsDJ0mPB",
+                    "name": "textblock",
+                    "data_type": "string"
+                },
+                "operator": "$isnotempty",
+                "field2_type": "field",
+                "field2": {
+                    "id": "",
+                    "name": "",
+                    "data_type": "string"
+                },
+                "value": "",
+                "caseSensitive": false
+            }
+        ]
+    ],
+    "result": {
+        "true": [
+            {
+                "field": {
+                    "id": "Button1_c108RcFvAZEd7W6umvqT0",
+                    "name": "button1"
+                },
+                "operation": "setstate",
+                "block_name": "Button",
+                "state_name": "Enable"
+            }
+        ],
+        "false": [
+            {
+                "field": {
+                    "id": "Button1_c108RcFvAZEd7W6umvqT0",
+                    "name": "button1"
+                },
+                "operation": "removestate",
+                "block_name": "Button",
+                "state_name": "Enable"
+            }
+        ]
+    }
+}

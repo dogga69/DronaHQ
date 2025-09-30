@@ -1,0 +1,16 @@
+{
+    "HEADERS": {
+        "x_powered_by": "Express",
+        "access_control_allow_origin": "*",
+        "content_type": "application/json; charset=utf-8",
+        "content_length": "155",
+        "etag": "W/\"9b-LRbLT/nhSJpMgJwyUej1Cn4pdD0\"",
+        "vary": "Accept-Encoding",
+        "date": "Fri, 26 Sep 2025 10:48:52 GMT",
+        "connection": "close"
+    },
+    "RESPONSE_CODE": 200,
+    "RESPONSE_MESSAGE": "OK",
+    "FAILURE_CODE": "",
+    "FAILURE_MESSAGE": ""
+}

@@ -1,0 +1,171 @@
+{
+    "event_name": "button_click",
+    "selector": ".control-button",
+    "event_type": "click",
+    "actionflow_id": "af_Button1_c199RkGmOArzDD0frVV2z_button_click_click",
+    "next_actions": [
+        "RlIMxLcChHPNTUyxp"
+    ],
+    "prev_actions": [],
+    "actions": [
+        {
+            "id": "RlIMxLcChHPNTUyxp",
+            "execution_editor_type": "JSEditor",
+            "execution_condition_variable_with_name": "",
+            "execution_condition_variable": "",
+            "execution_environments": [
+                "dev",
+                "beta",
+                "prod"
+            ],
+            "unique_name": "Triggerdataquery",
+            "label": "",
+            "fields": {
+                "name": {
+                    "key": "name",
+                    "value": "variable_Rqj9MmXSj7wqR8LKq1758882798325",
+                    "name": "js_script_1",
+                    "label": "Select Data Query\n   Select Data Query",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "text",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                },
+                "custom_parameters": {
+                    "key": "custom_parameters",
+                    "value": "{}",
+                    "name": "{}",
+                    "label": "Custom parameters\n    Custom parameters",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "object",
+                    "isDynamic": false,
+                    "editor_type": "JSEditor",
+                    "evaluateValue": true
+                }
+            },
+            "type": "TRIGGERDATAQUERY",
+            "outputs": [
+                {
+                    "key": "output",
+                    "value": "output",
+                    "isDefault": true
+                }
+            ],
+            "dual_output_action": true,
+            "wait_till_completion": true,
+            "offline_submission": false,
+            "downloadas_file": false,
+            "next_actions": [],
+            "prev_actions": [],
+            "actions_on_negative": [],
+            "actions_on_positive": [
+                {
+                    "id": "RuzkQouROcyCZvQg1",
+                    "execution_editor_type": "JSEditor",
+                    "execution_condition_variable_with_name": "",
+                    "execution_condition_variable": "",
+                    "execution_environments": [
+                        "dev",
+                        "beta",
+                        "prod"
+                    ],
+                    "unique_name": "GetPDFURL",
+                    "label": "GetPDFURL",
+                    "fields": {
+                        "name": {
+                            "key": "name",
+                            "value": "variable_RRKC6PAlUFQFbtta51758883652418",
+                            "name": "GetPDFURL",
+                            "label": "Select Variable\n   Select Variable",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "text",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        },
+                        "custom_parameters": {
+                            "key": "custom_parameters",
+                            "value": "{\"templateId\":\"68d66ecd672e1d86f24f0e56\",\"pdfName\":\"\",\"password\":\"\",\"ChartHTML_1758883562426\":{{variable_Rqj9MmXSj7wqR8LKq1758882798325}}}",
+                            "name": "{\"templateId\":\"68d66ecd672e1d86f24f0e56\",\"pdfName\":\"\",\"password\":\"\",\"ChartHTML_1758883562426\":{{js_script_1}}}",
+                            "label": "Custom parameters\n    Custom parameters",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "object",
+                            "isDynamic": false,
+                            "editor_type": "JSEditor",
+                            "evaluateValue": true
+                        }
+                    },
+                    "type": "TRIGGERDATAQUERY",
+                    "outputs": [
+                        {
+                            "key": "output",
+                            "value": "output",
+                            "isDefault": true
+                        }
+                    ],
+                    "dual_output_action": true,
+                    "wait_till_completion": true,
+                    "offline_submission": false,
+                    "downloadas_file": false,
+                    "actions_on_positive": [
+                        {
+                            "id": "RTb3euSLHHHxgEKe0",
+                            "execution_editor_type": "JSEditor",
+                            "execution_condition_variable_with_name": "",
+                            "execution_condition_variable": "",
+                            "execution_environments": [
+                                "dev",
+                                "beta",
+                                "prod"
+                            ],
+                            "unique_name": "Openurl",
+                            "label": "",
+                            "fields": {
+                                "url": {
+                                    "key": "url",
+                                    "value": "{{variable_RRKC6PAlUFQFbtta51758883652418.pdfFile}}",
+                                    "name": "{{GetPDFURL.pdfFile}}",
+                                    "label": "Url\n    Url",
+                                    "isField": false,
+                                    "isPreselect": false,
+                                    "fieldValueType": "manual",
+                                    "data_type": "string",
+                                    "isDynamic": false,
+                                    "editor_type": "JSEditor",
+                                    "evaluateValue": true
+                                }
+                            },
+                            "type": "OPENURL",
+                            "outputs": [],
+                            "dual_output_action": false,
+                            "wait_till_completion": false,
+                            "offline_submission": false,
+                            "downloadas_file": false,
+                            "next_actions": [],
+                            "prev_actions": [
+                                "RuzkQouROcyCZvQg1"
+                            ]
+                        }
+                    ],
+                    "actions_on_negative": [],
+                    "next_actions": [],
+                    "prev_actions": [
+                        "RlIMxLcChHPNTUyxp"
+                    ]
+                }
+            ]
+        }
+    ],
+    "category": "",
+    "interval": "",
+    "action_label": ""
+}
