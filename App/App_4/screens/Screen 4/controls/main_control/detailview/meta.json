@@ -50,7 +50,14 @@
         "data": {}
     },
     "dhq_nsf_replaced": false,
-    "dhq_olddt_map": {},
+    "dhq_olddt_map": {
+        "fullname": "fullname",
+        "email": "email",
+        "address": "address",
+        "birthdate": "birthdate",
+        "phone": "phone",
+        "avatar": "avatar"
+    },
     "dhq_req_stats": {
         "status": ""
     },
@@ -60,14 +67,14 @@
     "dhqGrid": {
         "w": 10,
         "h": 64,
-        "x": 5,
+        "x": 7,
         "y": 8
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 10,
         "h": 64,
-        "x": 5,
+        "x": 7,
         "y": 8
     },
     "disabled": false,

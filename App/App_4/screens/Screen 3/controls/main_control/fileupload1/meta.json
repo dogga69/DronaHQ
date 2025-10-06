@@ -150,6 +150,7 @@
     "layout_type": "dashed-theme",
     "multiple_allowed": true,
     "no_of_files": 0,
+    "parent_id": "",
     "product_font_size": "var(--DHQ-medium-font)",
     "product_font_size_unit": "",
     "product_font_weight": "var(--DHQ-bold)",

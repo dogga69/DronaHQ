@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "client_id": null,
+            "wallet_id": null,
+            "counterparty": null,
+            "type": null,
+            "status": null,
+            "balance": null,
+            "input": null,
+            "output": null,
+            "currency": null,
+            "conversion_rate": null,
+            "conversion_timestamp": null,
+            "conversion_currency": null,
+            "converted_balance": null
+        }
+    ]
+}
