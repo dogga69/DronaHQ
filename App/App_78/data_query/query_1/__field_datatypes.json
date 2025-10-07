@@ -1,0 +1,20 @@
+[
+    {
+        "field": "product",
+        "display_name": "product",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "description",
+        "display_name": "description",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "details",
+        "display_name": "details",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]

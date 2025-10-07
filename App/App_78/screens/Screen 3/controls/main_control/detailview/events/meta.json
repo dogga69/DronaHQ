@@ -1,0 +1,8 @@
+{
+    "save_changes": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'save_changes']"
+    }
+}
