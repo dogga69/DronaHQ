@@ -1,0 +1,51 @@
+{
+    "success": 1,
+    "message": "successful operation",
+    "result": [
+        {
+            "binary_user_id": 12448382,
+            "bo_loginid_list": [
+                "CR5655499",
+                "CR5656363",
+                "CR6007838",
+                "CR6953127"
+            ],
+            "mt5_loginid_list": [
+                "MTR61674930",
+                "MTR61852492",
+                "MTR61902858",
+                "MTR61992926",
+                "MTR61992927",
+                "MTR9120384",
+                "MTR9387192",
+                "MTR9641682",
+                "MTR9904225"
+            ],
+            "ctrader_loginid_list": [
+                "CTR1030627",
+                "CTR1229473"
+            ],
+            "derivx_loginid_list": [],
+            "wallet_loginid_list": "{CRW74680,CRW74681,CRW74683,CRW74686}",
+            "first_name": "Laura Cristina",
+            "last_name": "Loaiza Londoño",
+            "email": "parrajuanesteban469@gmail.com",
+            "phone_number": "624644966",
+            "phone_number_verified": "✅",
+            "join_date": "2023-06-22 17:48:11",
+            "date_of_birth": "2001-09-08",
+            "citizen": "co",
+            "residence": "co",
+            "address_line_1": "Calle 42C #63C-25",
+            "address_line_2": "",
+            "address_city": "Medellin",
+            "address_state": "ANT",
+            "address_postcode": "052001",
+            "registered_through_partner": "❌",
+            "gender": "male",
+            "last_login_timestamp": "2025-09-08 09:36:16",
+            "is_payment_agent": "❌",
+            "is_affiliate": "❌"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "field": "id",
+        "display_name": "id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "provider_name",
+        "display_name": "provider_name",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "provider_url",
+        "display_name": "provider_url",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "publish_date",
+        "display_name": "publish_date",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "hash",
+        "display_name": "hash",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "number_of_entries",
+        "display_name": "number_of_entries",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "last_checked",
+        "display_name": "last_checked",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]

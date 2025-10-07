@@ -1,0 +1,32 @@
+{
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "allow_offline_submission": false,
+    "auto_evaluate": false,
+    "created_at": 1758626377518,
+    "datatype": "composite_list",
+    "defaultValue": "",
+    "dhq_req_stats": {},
+    "dhq_set_value_via_action": false,
+    "display_name": "query_32",
+    "download_as_file": false,
+    "evaluate_on_dependency_change": "manual",
+    "field_composition_type": "variable",
+    "field_data_model_binding_manual_query": "BINDAPI([variable_RWMXZ7bDE68MzLghS1758798156117])",
+    "field_data_model_binding_manual_query_with_id": "BINDAPI( [variable_RWMXZ7bDE68MzLghS1758798156117])",
+    "field_data_model_binding_type": "",
+    "formula_binded_to": "BindAPI",
+    "interval": {
+        "instance": null,
+        "timeout": null
+    },
+    "is_dql": false,
+    "is_from_action_flow": true,
+    "is_master_variable": true,
+    "name": "variable_RWMXZ7bDE68MzLghS1758798156117",
+    "sanitize_response_keys": false,
+    "sb_mode": "JS",
+    "state": "error",
+    "type": "non-persistent",
+    "variable_parent_folder_id": null
+}

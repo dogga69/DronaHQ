@@ -1,0 +1,184 @@
+{
+    "category_id": 100012,
+    "channel_id": 2,
+    "sub_category_id": 100032,
+    "bindable": true,
+    "display_name": "",
+    "failure": {
+        "Header": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "success": false
+    },
+    "failureCondition": [],
+    "name": "GetDuplicateScreenUserInfo",
+    "plugin_id": 0,
+    "preselectfields": [
+        {
+            "field_key": "query.binary_user_id",
+            "field_name": "binary_user_id",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "",
+            "preselect_formula": ""
+        }
+    ],
+    "preselectvariables": [],
+    "proxy": true,
+    "request": {
+        "method": "GET",
+        "header": [
+            {
+                "contentType": "",
+                "keyName": "Accept",
+                "keyType": "String",
+                "keyDValue": "application/json",
+                "keyIsDynamic": false,
+                "keyIsMandatory": false,
+                "keyIsTooltip": "",
+                "keyPreselectValues": "",
+                "keyValue": "application/json"
+            }
+        ],
+        "body": {
+            "mode": "application/x-www-form-urlencoded",
+            "formdata": []
+        },
+        "url": {
+            "raw": "https://deriv-app.xano.io/api:KABdcJIP/duplicate-screen-user-info",
+            "protocol": "https",
+            "query": [
+                {
+                    "contentType": "",
+                    "keyName": "binary_user_id",
+                    "keyType": "String",
+                    "keyDValue": "",
+                    "keyIsDynamic": true,
+                    "keyIsMandatory": false,
+                    "keyIsTooltip": "",
+                    "keyPreselectValues": "",
+                    "keyValue": "8055494"
+                }
+            ],
+            "param": []
+        },
+        "account_id": "",
+        "description": "",
+        "remove_empty_keys": true,
+        "skip_uri_component_encoding": false,
+        "request_timeout": 50000
+    },
+    "response": {
+        "contentType": "application/json; charset=UTF-8",
+        "content": {
+            "binary_user_id": 1,
+            "loginid_list": [
+                "string"
+            ],
+            "first_name": "string",
+            "last_name": "string",
+            "email": "string",
+            "phone_number": "string",
+            "phone_number_verified": true,
+            "join_date": "string",
+            "date_of_birth": "string",
+            "citizen": "string",
+            "residence": "string",
+            "address_line_1": "string",
+            "address_line_2": "string",
+            "address_city": "string",
+            "address_state": "string",
+            "address_postcode": "string",
+            "registered_through_partner": true,
+            "is_payment_agent": true,
+            "is_affiliate": true
+        },
+        "Headers": [
+            {
+                "key": "date",
+                "value": ""
+            },
+            {
+                "key": "content-type",
+                "value": "application/json; charset=UTF-8"
+            },
+            {
+                "key": "transfer-encoding",
+                "value": ""
+            },
+            {
+                "key": "connection",
+                "value": ""
+            },
+            {
+                "key": "server",
+                "value": ""
+            },
+            {
+                "key": "accept-ranges",
+                "value": ""
+            },
+            {
+                "key": "x-app",
+                "value": ""
+            },
+            {
+                "key": "x-workspace",
+                "value": ""
+            },
+            {
+                "key": "x-xss-protection",
+                "value": ""
+            },
+            {
+                "key": "cache-control",
+                "value": ""
+            },
+            {
+                "key": "pragma",
+                "value": ""
+            },
+            {
+                "key": "expires",
+                "value": ""
+            },
+            {
+                "key": "x-content-type-options",
+                "value": ""
+            },
+            {
+                "key": "x-frame-options",
+                "value": ""
+            },
+            {
+                "key": "access-control-allow-origin",
+                "value": ""
+            },
+            {
+                "key": "access-control-allow-methods",
+                "value": ""
+            },
+            {
+                "key": "access-control-allow-headers",
+                "value": ""
+            },
+            {
+                "key": "access-control-allow-credentials",
+                "value": ""
+            },
+            {
+                "key": "access-control-max-age",
+                "value": ""
+            },
+            {
+                "key": "x-trace-id",
+                "value": ""
+            }
+        ],
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "is_deleted": 0
+}

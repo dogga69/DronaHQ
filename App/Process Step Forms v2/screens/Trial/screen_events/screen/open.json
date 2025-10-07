@@ -1,0 +1,204 @@
+{
+    "event_name": "screen",
+    "selector": "",
+    "event_type": "open",
+    "actionflow_id": "af_c6385RaiKsQtryCxAchp37_screen_open",
+    "next_actions": [
+        "Rv9iIwCAefl8uMAeZ"
+    ],
+    "prev_actions": [],
+    "actions": [
+        {
+            "id": "Rv9iIwCAefl8uMAeZ",
+            "execution_editor_type": "JSEditor",
+            "execution_condition_variable_with_name": "",
+            "execution_condition_variable": "",
+            "execution_environments": [
+                "dev",
+                "beta",
+                "prod"
+            ],
+            "unique_name": "Alert",
+            "label": "",
+            "fields": {
+                "type": {
+                    "key": "type",
+                    "value": "success",
+                    "name": "Success",
+                    "label": "Select Type\n   Select Type",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "text",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                },
+                "title": {
+                    "key": "title",
+                    "value": "Perfect!",
+                    "name": "Perfect!",
+                    "label": "Title\n    Title",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "text",
+                    "isDynamic": false,
+                    "editor_type": "JSEditor",
+                    "evaluateValue": true
+                },
+                "message": {
+                    "key": "message",
+                    "value": "Good work, as always.",
+                    "name": "Good work, as always.",
+                    "label": "Message\n    Message",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "text",
+                    "isDynamic": false,
+                    "editor_type": "JSEditor",
+                    "evaluateValue": true
+                },
+                "confirmButtonText": {
+                    "key": "confirmButtonText",
+                    "value": "Done",
+                    "name": "Done",
+                    "label": "Button Text\n    Button Text",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "text",
+                    "isDynamic": false,
+                    "editor_type": "JSEditor",
+                    "evaluateValue": true
+                }
+            },
+            "type": "ALERT",
+            "outputs": [],
+            "dual_output_action": false,
+            "wait_till_completion": true,
+            "offline_submission": false,
+            "downloadas_file": false,
+            "next_actions": [
+                "RKJIa3ao4bDMQTigc"
+            ],
+            "prev_actions": []
+        },
+        {
+            "id": "RKJIa3ao4bDMQTigc",
+            "execution_editor_type": "JSEditor",
+            "execution_condition_variable_with_name": "",
+            "execution_condition_variable": "",
+            "execution_environments": [
+                "dev",
+                "beta",
+                "prod"
+            ],
+            "unique_name": "GetDuplicateScreenUserInfo_Trial",
+            "label": "GetDuplicateScreenUserInfo_Trial",
+            "fields": {
+                "name": {
+                    "key": "name",
+                    "value": "variable_RcUgdXVxpvy8M8Iir1758009270084",
+                    "name": "GetDuplicateScreenUserInfo_Trial",
+                    "label": "Select Variable\n   Select Variable",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "text",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                },
+                "custom_parameters": {
+                    "key": "custom_parameters",
+                    "value": "{\"binary_user_id\":{{client_id}}}",
+                    "name": "{\"binary_user_id\":{{client_id}}}",
+                    "label": "Custom parameters\n    Custom parameters",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "object",
+                    "isDynamic": false,
+                    "editor_type": "JSEditor",
+                    "evaluateValue": true
+                }
+            },
+            "type": "TRIGGERDATAQUERY",
+            "outputs": [
+                {
+                    "key": "output",
+                    "value": "output",
+                    "isDefault": true
+                }
+            ],
+            "dual_output_action": true,
+            "wait_till_completion": true,
+            "offline_submission": false,
+            "downloadas_file": false,
+            "next_actions": [],
+            "prev_actions": [
+                "Rv9iIwCAefl8uMAeZ"
+            ],
+            "actions_on_negative": [],
+            "actions_on_positive": [
+                {
+                    "id": "RMq7rgGZYiSGYoBoA",
+                    "execution_editor_type": "JSEditor",
+                    "execution_condition_variable_with_name": "",
+                    "execution_condition_variable": "",
+                    "execution_environments": [
+                        "dev",
+                        "beta",
+                        "prod"
+                    ],
+                    "unique_name": "Setvariable",
+                    "label": "",
+                    "fields": {},
+                    "type": "SETVARIABLE",
+                    "outputs": [],
+                    "dual_output_action": false,
+                    "wait_till_completion": true,
+                    "offline_submission": false,
+                    "downloadas_file": false,
+                    "dynamic_fields": [
+                        {
+                            "name": {
+                                "key": "name",
+                                "isField": false,
+                                "isPreselect": false,
+                                "fieldValueType": "manual",
+                                "data_type": "text",
+                                "name": "client_info",
+                                "value": "variable_RuMHUa9DAGyiuBpgi1758009461733",
+                                "label": "Select data query\n   Select data query",
+                                "editor_type": "",
+                                "evaluateValue": true
+                            },
+                            "value": {
+                                "key": "value",
+                                "isField": false,
+                                "isPreselect": false,
+                                "fieldValueType": "manual",
+                                "data_type": "text",
+                                "name": "{{GetDuplicateScreenUserInfo_Trial.result}}",
+                                "value": "{{variable_RcUgdXVxpvy8M8Iir1758009270084.result}}",
+                                "label": "Enter value\n    Enter value",
+                                "editor_type": "JSEditor",
+                                "evaluateValue": true
+                            }
+                        }
+                    ],
+                    "next_actions": [],
+                    "prev_actions": [
+                        "RKJIa3ao4bDMQTigc"
+                    ]
+                }
+            ]
+        }
+    ],
+    "category": "",
+    "interval": "",
+    "action_label": ""
+}

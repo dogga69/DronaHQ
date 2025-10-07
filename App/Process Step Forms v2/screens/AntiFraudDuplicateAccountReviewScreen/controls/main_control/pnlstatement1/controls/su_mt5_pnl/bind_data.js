@@ -1,0 +1,1 @@
+{{su_mt5_pnl_data}}

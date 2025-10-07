@@ -1,0 +1,1 @@
+{{user_ctrader_pnl}}

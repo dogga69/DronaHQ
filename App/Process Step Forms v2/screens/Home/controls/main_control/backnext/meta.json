@@ -1,0 +1,156 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "string",
+    "allow_options_addition_in_editor": true,
+    "back": "Back",
+    "background": "var(--DHQ-header-font-color)",
+    "caching": false,
+    "card_background": "#ffffff",
+    "cid": "c838RaohW8BdXSUIIq2KD",
+    "class_name": "test",
+    "ctrl_id": "",
+    "data_submission_enabled": true,
+    "data_type": "",
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "field_datatypes",
+            "event_items",
+            "statesObj"
+        ]
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {},
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 2,
+        "h": 4,
+        "x": 1,
+        "y": 44
+    },
+    "dhqGridDesktop": {
+        "w": 2,
+        "h": 4,
+        "x": 1,
+        "y": 431
+    },
+    "disabled": false,
+    "event_items": {
+        "card_click": {
+            "click": [
+                {
+                    "formula_with_id": "",
+                    "formula_with_name": ""
+                }
+            ]
+        },
+        "back": {
+            "click": [
+                {
+                    "formula_with_id": "",
+                    "formula_with_name": ""
+                }
+            ]
+        },
+        "next": {
+            "click": [
+                {
+                    "formula_with_id": "",
+                    "formula_with_name": ""
+                }
+            ]
+        }
+    },
+    "field_available_in_database_editor": false,
+    "field_client_side_get_data_enabled": true,
+    "field_composition_type": "composite",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "",
+    "field_data_model_binding_manual_query_with_id": "",
+    "field_data_model_binding_type": "",
+    "field_database_editor_data_format": "",
+    "field_datatypes": [
+        {
+            "field": "back",
+            "display_name": "back",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "next",
+            "display_name": "next",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        }
+    ],
+    "field_display_key_name": "backnext",
+    "field_editable_in_database_editor": false,
+    "field_fullview": false,
+    "field_key_name": "back_next_c838RaohW8BdXSUIIq2KD",
+    "field_options": {},
+    "field_responsive": false,
+    "field_type": "back_next",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "",
+    "formbuilder_theme": "#bbbbbb",
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "gridDesktopOrigin": null,
+    "hidden": false,
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_master_control": false,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "label": "back next",
+    "label_font_size": "var(--DHQ-control-title)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": true,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "next": "Next",
+    "parent_id": "",
+    "required": false,
+    "show_description": false,
+    "show_dfm": false,
+    "show_new_property": false,
+    "show_tooltip": false,
+    "sid": "sc838RaohW8BdXSUIIq2KD",
+    "statesObj": {},
+    "sticky": false,
+    "tabIndex": "",
+    "tip_description": "",
+    "tooltip": "",
+    "type": "non_input",
+    "unique_name_change": false,
+    "visibility": true,
+    "wrapper_content_alignment": "flex-start"
+}

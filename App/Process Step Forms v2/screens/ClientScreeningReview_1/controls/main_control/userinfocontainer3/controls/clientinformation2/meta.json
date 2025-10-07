@@ -1,0 +1,467 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "string",
+    "allow_addition": false,
+    "allow_options_addition_in_editor": true,
+    "allowHiddenCols": true,
+    "allowSchemaFormatting": true,
+    "caching": false,
+    "change_indicator_color": "var(--DHQ-primary-color)",
+    "cid": "c1853RRZ3n63A6MpPrQV45",
+    "class_name": "test",
+    "Column_arrange": "",
+    "columnVisible": 0,
+    "colwidth": 120,
+    "ctrl_id": "",
+    "custom_label_save_btn": "Save Changes",
+    "data_submission_enabled": true,
+    "data_type": "string",
+    "default": "",
+    "default_field_options_structure": {
+        "value": "Abagael Doe",
+        "name": "Developer",
+        "number": "+1 255 112 222",
+        "location": "SF, USA",
+        "serial": "15 Years",
+        "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+    },
+    "default_json_view": "table",
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "for_localization",
+            "dhq_config",
+            "show_new_property"
+        ],
+        "update_to_theme_varaibles": [
+            "label_font_size",
+            "label_font_size_unit",
+            "label_font_weight",
+            "label_text_color",
+            "formbuilder_theme"
+        ]
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {
+        "first_name": "first_name",
+        "last_name": "last_name",
+        "login_id": "login_id",
+        "date_of_birth": "date_of_birth",
+        "citizenship": "citizenship",
+        "residence": "residence",
+        "address": "address",
+        "email_address": "email_address",
+        "p2p": "p2p",
+        "payment_agent": "payment_agent",
+        "join_date": "join_date",
+        "phone_number_verified": "phone_number_verified",
+        "lexis_nexis": "lexis_nexis",
+        "mfa": "mfa",
+        "phone": "phone",
+        "social_signup": "social_signup",
+        "aml_risk_classification": "aml_risk_classification",
+        "current_balance": "current_balance",
+        "explicit_pa_withdrawal": "explicit_pa_withdrawal",
+        "currency": "currency"
+    },
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 24,
+        "h": 59,
+        "x": 0,
+        "y": 0
+    },
+    "dhqGridChanged": false,
+    "dhqGridDesktop": {
+        "w": 24,
+        "h": 59,
+        "x": 0,
+        "y": 0
+    },
+    "dhqMGridChanged": false,
+    "disabled": false,
+    "dummySchema": {},
+    "editable_fields": [],
+    "field_available_in_database_editor": false,
+    "field_client_side_get_data_enabled": false,
+    "field_composition_type": "composite_list",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_default_value_query": "",
+    "field_data_model_binding_default_value_query_with_id": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "DATABUILDER()",
+    "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+    "field_data_model_binding_type": "manual_query",
+    "field_database_editor_data_format": "single_select",
+    "field_datatypes": [
+        {
+            "field": "id",
+            "display_name": "id",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "region",
+            "display_name": "region",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "external_reference_id",
+            "display_name": "external_reference_id",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "brand_id",
+            "display_name": "brand_id",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "email",
+            "display_name": "email",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "first_name",
+            "display_name": "first_name",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "last_name",
+            "display_name": "last_name",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "nickname",
+            "display_name": "nickname",
+            "data_type": "object",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "date_of_birth",
+            "display_name": "date_of_birth",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "residence",
+            "display_name": "residence",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "citizenship",
+            "display_name": "citizenship",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "country_of_birth",
+            "display_name": "country_of_birth",
+            "data_type": "object",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "address_line_1",
+            "display_name": "address_line_1",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "address_line_2",
+            "display_name": "address_line_2",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "address_state",
+            "display_name": "address_state",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "address_city",
+            "display_name": "address_city",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "address_postcode",
+            "display_name": "address_postcode",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "phone_calling_code",
+            "display_name": "phone_calling_code",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "phone_national_format",
+            "display_name": "phone_national_format",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "phone_country_code",
+            "display_name": "phone_country_code",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "salutation",
+            "display_name": "salutation",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "created_at",
+            "display_name": "created_at",
+            "data_type": "number",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "updated_at",
+            "display_name": "updated_at",
+            "data_type": "object",
+            "field_database_editor_data_format": "single_line_text"
+        }
+    ],
+    "field_display_key_name": "clientinformation2",
+    "field_editable_in_database_editor": false,
+    "field_fullview": false,
+    "field_key_name": "tray_c1853RRZ3n63A6MpPrQV45",
+    "field_options": {
+        "options": [
+            {
+                "value": "Mark Anthony",
+                "name": "Designer",
+                "number": "+1 258 666 556",
+                "location": "San Jose, USA",
+                "serial": "2 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Jhon Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaberg Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aalst Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aara Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaren Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aarika Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaron Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaronson Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Ab Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aba Doe",
+                "name": "Abad",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Abagael Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            }
+        ]
+    },
+    "field_responsive": false,
+    "field_schema_column_header_names": "id,region,external_reference_id,brand_id,email,first_name,last_name,nickname,date_of_birth,residence,citizenship,country_of_birth,address_line_1,address_line_2,address_state,address_city,address_postcode,phone_calling_code,phone_national_format,phone_country_code,salutation,created_at,updated_at",
+    "field_schema_column_id_header_name_mapping": {
+        "id": "id",
+        "region": "region",
+        "external_reference_id": "external_reference_id",
+        "brand_id": "brand_id",
+        "email": "email",
+        "first_name": "first_name",
+        "last_name": "last_name",
+        "nickname": "nickname",
+        "date_of_birth": "date_of_birth",
+        "residence": "residence",
+        "citizenship": "citizenship",
+        "country_of_birth": "country_of_birth",
+        "address_line_1": "address_line_1",
+        "address_line_2": "address_line_2",
+        "address_state": "address_state",
+        "address_city": "address_city",
+        "address_postcode": "address_postcode",
+        "phone_calling_code": "phone_calling_code",
+        "phone_national_format": "phone_national_format",
+        "phone_country_code": "phone_country_code",
+        "salutation": "salutation",
+        "created_at": "created_at",
+        "updated_at": "updated_at"
+    },
+    "field_type": "tray",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "field_options.options",
+    "for_localization": {
+        "static_msgs": [],
+        "dynamic_msgs_keys": [
+            "label",
+            "tooltip",
+            "tip_description"
+        ],
+        "concated_msgs": []
+    },
+    "formattedSchema": [],
+    "formbuilder_theme": "var(--DHQ-primary-color)",
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "gridDesktopOrigin": null,
+    "Group_options": "single_column",
+    "header_font_size": "var(--DHQ-normal-font)",
+    "header_font_size_unit": "",
+    "header_font_weight": "var(--DHQ-bold)",
+    "header_textColor": "var(--DHQ-primary-font-color)",
+    "headerNames": "",
+    "hidden": false,
+    "hiddenColumnList": [
+        "external_reference_id",
+        "brand_id",
+        "salutation",
+        "phone_calling_code",
+        "phone_national_format",
+        "phone_country_code",
+        "created_at",
+        "updated_at",
+        "address_city"
+    ],
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_master_control": true,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "label": "Client Information",
+    "label_font_size": "var(--DHQ-H4)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": true,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "parent_id": "grid_panel_c1852RWi803WZPgzNU1VnC",
+    "placeholder": "Click, Type to Select",
+    "required": false,
+    "rowsVisible": 10,
+    "sb_mode": "JS",
+    "show_description": false,
+    "show_dfm": false,
+    "show_keyValue": true,
+    "show_new_property": true,
+    "show_tooltip": false,
+    "sid": "sc1853RRZ3n63A6MpPrQV45",
+    "sort_select": false,
+    "tabIndex": "",
+    "tip_description": "",
+    "tooltip": "",
+    "type": "non_input",
+    "unique_name_change": false,
+    "value_font_size": "var(--DHQ-normal-font)",
+    "value_font_size_unit": "",
+    "value_font_weight": "var(--DHQ-bold)",
+    "value_textColor": "var(--DHQ-primary-font-color)",
+    "visibility": true,
+    "wrapper_content_alignment": "flex-start"
+}

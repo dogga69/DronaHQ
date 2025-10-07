@@ -1,0 +1,185 @@
+{
+    "channel_id": 2,
+    "category_id": 100012,
+    "sub_category_id": 100031,
+    "bindable": true,
+    "display_name": "",
+    "failure": {
+        "contentType": "application/json; charset=UTF-8",
+        "content": {
+            "code": "",
+            "message": "",
+            "payload": [
+                {
+                    "code": "",
+                    "message": "",
+                    "status": 0
+                }
+            ]
+        },
+        "Headers": [
+            {
+                "key": "date",
+                "value": ""
+            },
+            {
+                "key": "content_type",
+                "value": ""
+            },
+            {
+                "key": "transfer_encoding",
+                "value": ""
+            },
+            {
+                "key": "connection",
+                "value": ""
+            },
+            {
+                "key": "set_cookie",
+                "value": ""
+            },
+            {
+                "key": "server",
+                "value": ""
+            },
+            {
+                "key": "accept_ranges",
+                "value": ""
+            },
+            {
+                "key": "x_app",
+                "value": ""
+            },
+            {
+                "key": "x_xss_protection",
+                "value": ""
+            },
+            {
+                "key": "cache_control",
+                "value": ""
+            },
+            {
+                "key": "pragma",
+                "value": ""
+            },
+            {
+                "key": "expires",
+                "value": ""
+            },
+            {
+                "key": "x_content_type_options",
+                "value": ""
+            },
+            {
+                "key": "x_frame_options",
+                "value": ""
+            },
+            {
+                "key": "access_control_allow_origin",
+                "value": ""
+            },
+            {
+                "key": "access_control_allow_methods",
+                "value": ""
+            },
+            {
+                "key": "access_control_allow_headers",
+                "value": ""
+            },
+            {
+                "key": "access_control_allow_credentials",
+                "value": ""
+            },
+            {
+                "key": "access_control_max_age",
+                "value": ""
+            },
+            {
+                "key": "x_workspace",
+                "value": ""
+            },
+            {
+                "key": "x_trace_id",
+                "value": ""
+            }
+        ],
+        "StatusCode": 500,
+        "StatusDescription": "Internal Server Error"
+    },
+    "failureCondition": [],
+    "name": "V2_piidata",
+    "plugin_id": 0,
+    "preselectfields": [
+        {
+            "field_key": "query.client_id",
+            "field_name": "client_id",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "",
+            "preselect_formula": ""
+        },
+        {
+            "field_key": "query.brand",
+            "field_name": "brand",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "",
+            "preselect_formula": ""
+        }
+    ],
+    "preselectvariables": [],
+    "proxy": true,
+    "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+            "mode": "application/x-www-form-urlencoded",
+            "formdata": []
+        },
+        "url": {
+            "raw": "https://deriv-app.xano.io/api:KABdcJIP/pii-data",
+            "endpoint": "/api:KABdcJIP/pii-data",
+            "protocol": "https",
+            "query": [
+                {
+                    "contentType": "",
+                    "keyName": "client_id",
+                    "keyType": "String",
+                    "keyDValue": "",
+                    "keyIsDynamic": true,
+                    "keyIsMandatory": false,
+                    "keyIsTooltip": "",
+                    "keyPreselectValues": "",
+                    "keyValue": "8f13bfc0-b77a-4943-a92f-e090279447fb"
+                },
+                {
+                    "contentType": "",
+                    "keyName": "brand",
+                    "keyType": "String",
+                    "keyDValue": "",
+                    "keyIsDynamic": true,
+                    "keyIsMandatory": false,
+                    "keyIsTooltip": "",
+                    "keyPreselectValues": "",
+                    "keyValue": "\"\""
+                }
+            ],
+            "param": []
+        },
+        "account_id": "",
+        "description": "",
+        "remove_empty_keys": true,
+        "skip_uri_component_encoding": false,
+        "request_timeout": 5000
+    },
+    "response": {
+        "Headers": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "success": true
+    },
+    "is_deleted": 0
+}

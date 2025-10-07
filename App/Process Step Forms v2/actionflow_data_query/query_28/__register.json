@@ -1,0 +1,68 @@
+{
+    "api_id": 24,
+    "api_name": "variable_RGs7qWfXMdxzq2xJT1758797949371",
+    "cat_id": "__REPLACE_CAT_ID_100011___",
+    "cat_name": "__REPLACE_CAT_NAME_100011___",
+    "sub_cat_id": "__REPLACE_SUB_CAT_ID_100034___",
+    "sub_cat_name": "__REPLACE_SUB_CAT_NAME_100034___",
+    "cat_icon_url": "./Images/dblogos/restapi.png",
+    "method": "get",
+    "query": {
+        "global_user_id": {
+            "keyName": "global_user_id",
+            "spanName": null,
+            "isField": true,
+            "keyType": "text",
+            "keyValue": "{{variable_RXCUrtzJQTgzi8CpB1758797948938}}",
+            "testValue": "a5a965d4-bef3-4896-b347-3f3e9ca897c3",
+            "preselect": false,
+            "name": "",
+            "label": "",
+            "isDynamic": false,
+            "editor_type": "JSEditor"
+        }
+    },
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "application/x-www-form-urlencoded",
+        "formdata": {},
+        "variables": {}
+    },
+    "auth": {},
+    "triggerOnPageload": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "error_msg": "",
+    "filterKeysOptions": {},
+    "scheme_type": "multistep_auth",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "allow_offline_submission": false,
+    "download_as_file": false,
+    "secureResponse": false,
+    "rawResponse": {
+        "result": {
+            "user_id": "string",
+            "account_id": "string",
+            "list_name": "string",
+            "list_updated": "string",
+            "matched_reason": "string",
+            "residence": "string",
+            "citizen": "string",
+            "place_of_birth": "string",
+            "dob_list": "string"
+        }
+    },
+    "processedResp": {},
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "autoTransform": false,
+    "cat_type": ""
+}

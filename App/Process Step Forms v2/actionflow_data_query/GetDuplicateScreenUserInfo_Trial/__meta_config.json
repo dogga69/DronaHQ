@@ -1,0 +1,28 @@
+{
+    "HEADERS": {
+        "date": "Tue, 16 Sep 2025 07:55:14 GMT",
+        "content_type": "application/json; charset=UTF-8",
+        "transfer_encoding": "chunked",
+        "connection": "close",
+        "server": "nginx",
+        "accept_ranges": "none",
+        "x_app": "hit",
+        "x_xss_protection": "1; mode=block",
+        "cache_control": "private, no-cache, no-store, must-revalidate",
+        "pragma": "no-cache",
+        "expires": "Sat, 19 Sep 2015 07:55:09 GMT",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "deny",
+        "access_control_allow_origin": "*",
+        "access_control_allow_methods": "GET, POST, DELETE, PUT, PATCH, OPTIONS, HEAD",
+        "access_control_allow_headers": "*",
+        "access_control_allow_credentials": "true",
+        "access_control_max_age": "86400",
+        "x_workspace": "hit",
+        "x_trace_id": "c7d5d962-2a64-4826-9dd9-ab9adbf4917c"
+    },
+    "RESPONSE_CODE": 200,
+    "RESPONSE_MESSAGE": "OK",
+    "FAILURE_CODE": "",
+    "FAILURE_MESSAGE": ""
+}

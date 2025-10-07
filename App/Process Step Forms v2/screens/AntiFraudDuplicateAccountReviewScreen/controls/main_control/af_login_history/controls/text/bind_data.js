@@ -1,0 +1,1 @@
+Device count: {{du_device_count}}

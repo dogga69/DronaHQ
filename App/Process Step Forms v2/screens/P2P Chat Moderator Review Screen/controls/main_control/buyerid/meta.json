@@ -1,0 +1,199 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "object",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "object",
+    "action_value": "",
+    "allow_options_addition_in_editor": true,
+    "caching": false,
+    "cid": "c2158Rm3kh8WHNEBlalT6b",
+    "class_name": "test",
+    "ctrl_id": "",
+    "data_font_size": "var(--DHQ-normal-font)",
+    "data_font_size_unit": "",
+    "data_font_weight": "var(--DHQ-normal-weight)",
+    "data_submission_enabled": true,
+    "data_text_alignment": "left",
+    "data_text_color": "var(--DHQ-primary-font-color)",
+    "data_type": "",
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "for_localization",
+            "dhq_config",
+            "show_new_property"
+        ],
+        "update_to_theme_varaibles": [
+            "title_font_size_unit",
+            "data_font_size_unit",
+            "formbuilder_theme",
+            "title_text_color",
+            "title_font_weight",
+            "title_font_size",
+            "data_font_weight",
+            "data_text_color",
+            "data_font_size",
+            "label_font_size",
+            "label_font_size_unit",
+            "label_font_weight",
+            "label_text_color",
+            "label_text_alignment"
+        ]
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {},
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 2,
+        "h": 8,
+        "x": 5,
+        "y": 34
+    },
+    "dhqGridChanged": false,
+    "dhqGridDesktop": {
+        "w": 2,
+        "h": 8,
+        "x": 5,
+        "y": 34
+    },
+    "disabled": false,
+    "field_available_in_database_editor": false,
+    "field_composition_type": "composite",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "",
+    "field_data_model_binding_manual_query_with_id": "",
+    "field_data_model_binding_type": "manual_query",
+    "field_database_editor_data_format": "",
+    "field_datatypes": [
+        {
+            "field": "title",
+            "display_name": "title",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "subtitle",
+            "display_name": "subtitle",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "action_value",
+            "display_name": "action_value",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        }
+    ],
+    "field_display_key_name": "buyerid",
+    "field_editable_in_database_editor": false,
+    "field_fullview": false,
+    "field_key_name": "dhq_smart_label_c2158Rm3kh8WHNEBlalT6b",
+    "field_options": {
+        "options": [
+            {
+                "value": "Text",
+                "name": "Text"
+            },
+            {
+                "value": "Url",
+                "name": "Url"
+            },
+            {
+                "value": "Phone",
+                "name": "Phone"
+            },
+            {
+                "value": "Email",
+                "name": "Email"
+            }
+        ]
+    },
+    "field_responsive": true,
+    "field_type": "dhq_smart_label",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "",
+    "for_localization": {
+        "static_msgs": [
+            "No supported app found that can open this url."
+        ],
+        "dynamic_msgs_keys": [
+            "label",
+            "tooltip",
+            "tip_description"
+        ],
+        "concated_msgs": []
+    },
+    "formbuilder_theme": "var(--DHQ-success-light-color)",
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "hidden": false,
+    "Icon": "Text",
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_master_control": false,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "label": "Buyer ID",
+    "label_font_size": "var(--DHQ-H3)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-xx-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": false,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "newregion": "new test",
+    "parent_id": "",
+    "required": false,
+    "sb_mode": {
+        "title": "JS",
+        "subtitle": "JS"
+    },
+    "show_description": false,
+    "show_dfm": false,
+    "show_new_property": true,
+    "show_tooltip": false,
+    "sid": "sc2158Rm3kh8WHNEBlalT6b",
+    "subtitle": "",
+    "tabIndex": "",
+    "tip_description": "",
+    "title": "",
+    "title_font_size": "var(--DHQ-H5)",
+    "title_font_size_unit": "",
+    "title_font_weight": "var(--DHQ-x-bold)",
+    "title_text_alignment": "left",
+    "title_text_color": "var(--DHQ-primary-font-color)",
+    "tooltip": "",
+    "type": "non_input",
+    "unique_name_change": true,
+    "value_type": "text",
+    "visibility": true,
+    "wrapper_content_alignment": "flex-start"
+}

@@ -1,0 +1,74 @@
+{
+    "api_id": 6,
+    "api_name": "variable_RI0Zua5DEQ0Coo7jZ1758704343584",
+    "cat_id": "__REPLACE_CAT_ID_100012___",
+    "cat_name": "__REPLACE_CAT_NAME_100012___",
+    "sub_cat_id": "__REPLACE_SUB_CAT_ID_100033___",
+    "sub_cat_name": "__REPLACE_SUB_CAT_NAME_100033___",
+    "cat_icon_url": "./Images/dblogos/restapi.png",
+    "method": "get",
+    "query": {
+        "env": {
+            "keyName": "env",
+            "spanName": null,
+            "isField": true,
+            "keyType": "text",
+            "keyValue": "{{DATAENV}}",
+            "testValue": "staging",
+            "preselect": false,
+            "name": "",
+            "label": "",
+            "isDynamic": false,
+            "editor_type": "JSEditor"
+        }
+    },
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "application/x-www-form-urlencoded",
+        "formdata": {},
+        "variables": {}
+    },
+    "auth": {},
+    "triggerOnPageload": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "error_msg": "",
+    "filterKeysOptions": {
+        "id": "1",
+        "provider_name": "string",
+        "provider_url": "string",
+        "publish_date": "string",
+        "hash": "string",
+        "number_of_entries": "1",
+        "last_checked": "string"
+    },
+    "scheme_type": "multistep_auth",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "allow_offline_submission": false,
+    "download_as_file": false,
+    "secureResponse": false,
+    "rawResponse": [
+        {
+            "id": 1,
+            "provider_name": "string",
+            "provider_url": "string",
+            "publish_date": "string",
+            "hash": "string",
+            "number_of_entries": 1,
+            "last_checked": "string"
+        }
+    ],
+    "processedResp": {},
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "autoTransform": true,
+    "cat_type": ""
+}

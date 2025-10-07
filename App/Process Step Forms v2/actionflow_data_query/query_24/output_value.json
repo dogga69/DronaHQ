@@ -1,0 +1,54 @@
+{
+    "HEADERS": {
+        "date": "Thu, 25 Sep 2025 08:59:09 GMT",
+        "content_type": "application/json; charset=UTF-8",
+        "transfer_encoding": "chunked",
+        "connection": "close",
+        "set_cookie": [
+            "AWSALB=aBMSYHRBUEuZkro8u3T89IFd6aGS2F99cyOBKbVyjSTd/htzYpHQ+EALOVlwYRuKr/dONSOLOvfZVZs4HZRsgBBVKag/4ACFjyBKQwLj1rXU7RTjhR7qIetFQXPt; Expires=Thu, 02 Oct 2025 08:59:09 GMT; Path=/",
+            "AWSALBCORS=aBMSYHRBUEuZkro8u3T89IFd6aGS2F99cyOBKbVyjSTd/htzYpHQ+EALOVlwYRuKr/dONSOLOvfZVZs4HZRsgBBVKag/4ACFjyBKQwLj1rXU7RTjhR7qIetFQXPt; Expires=Thu, 02 Oct 2025 08:59:09 GMT; Path=/; SameSite=None; Secure"
+        ],
+        "server": "nginx",
+        "accept_ranges": "none",
+        "x_app": "hit",
+        "x_xss_protection": "1; mode=block",
+        "cache_control": "private, no-cache, no-store, must-revalidate",
+        "pragma": "no-cache",
+        "expires": "Mon, 28 Sep 2015 08:59:09 GMT",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "deny",
+        "access_control_allow_origin": "*",
+        "access_control_allow_methods": "GET, POST, DELETE, PUT, PATCH, OPTIONS, HEAD",
+        "access_control_allow_headers": "*",
+        "access_control_allow_credentials": "true",
+        "access_control_max_age": "86400",
+        "x_workspace": "hit",
+        "x_trace_id": "d6efe718-83c4-45a5-8974-96d69dee32ad"
+    },
+    "RESPONSE_CODE": 403,
+    "RESPONSE_MESSAGE": "Forbidden",
+    "FAILURE_CODE": "",
+    "FAILURE_MESSAGE": "",
+    "TIMESTAMP": {
+        "request_arrival": 1758790749438,
+        "request_validation": 1758790749438,
+        "query_preparation": 1758790749492,
+        "query_execution": 1758790749493,
+        "post_processing": null,
+        "response": 1758790749972,
+        "transfer_data_arrival": 1758790750078,
+        "dataquery_preparation_arrival": 1758790749249
+    },
+    "DURATION": {
+        "turn_around": 534,
+        "authentication": 0,
+        "validation": 54,
+        "preparation": 1,
+        "execution": 479,
+        "processing": null,
+        "transfer_data": 289,
+        "transform_response": 0,
+        "prepare_data_query": 6
+    },
+    "RESPONSE_SIZE": 91
+}

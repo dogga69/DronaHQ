@@ -1,0 +1,21 @@
+{
+    "cat_id": 100012,
+    "catName": "TransformLayerAPI",
+    "catDesc": "",
+    "catIcon": "./Images/dblogos/restapi.png",
+    "schemeType": "multistep_auth",
+    "cat_created_on": null,
+    "cat_modify_on": null,
+    "cat_created_by": "",
+    "isGlobal": false,
+    "isEditable": true,
+    "isCatPublic": false,
+    "isInstalled": false,
+    "isCatEditable": true,
+    "showAddOption": true,
+    "cat_type": "",
+    "format_id": "7ccf7511-9a1b-11f0-b375-f2f521e061fa",
+    "permission": "1000",
+    "multistep_auth_steps": {},
+    "channel_id": "2"
+}

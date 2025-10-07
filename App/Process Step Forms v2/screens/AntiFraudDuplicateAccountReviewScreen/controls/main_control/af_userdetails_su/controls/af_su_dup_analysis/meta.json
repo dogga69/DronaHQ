@@ -1,0 +1,322 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "string",
+    "allow_addition": false,
+    "allow_options_addition_in_editor": true,
+    "allowHiddenCols": true,
+    "allowSchemaFormatting": true,
+    "caching": false,
+    "change_indicator_color": "var(--DHQ-primary-color)",
+    "cid": "c2884RlyNprHwffnqTZ1pX",
+    "class_name": "test",
+    "Column_arrange": "",
+    "columnVisible": 0,
+    "colwidth": 120,
+    "ctrl_id": "",
+    "custom_label_save_btn": "Save Changes",
+    "data_submission_enabled": true,
+    "data_type": "string",
+    "default": "",
+    "default_field_options_structure": {
+        "value": "Abagael Doe",
+        "name": "Developer",
+        "number": "+1 255 112 222",
+        "location": "SF, USA",
+        "serial": "15 Years",
+        "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+    },
+    "default_json_view": "table",
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "for_localization",
+            "dhq_config",
+            "show_new_property"
+        ],
+        "update_to_theme_varaibles": [
+            "label_font_size",
+            "label_font_size_unit",
+            "label_font_weight",
+            "label_text_color",
+            "formbuilder_theme"
+        ]
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {
+        "result_set_id": "result_set_id",
+        "user_id": "user_id",
+        "confidence_level": "confidence_level",
+        "regulated_account_included": "regulated_account_included",
+        "explanation": "explanation",
+        "brand": "brand"
+    },
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 24,
+        "h": 20,
+        "x": 0,
+        "y": 2
+    },
+    "dhqGridDesktop": {
+        "w": 24,
+        "h": 20,
+        "x": 0,
+        "y": 2
+    },
+    "dhqMGridChanged": false,
+    "disabled": false,
+    "dummySchema": {
+        "Confidence level": {
+            "controlIconUrl": "app/src/images/controls/percent.svg",
+            "controlType": "Percent",
+            "control_display_name": "Percent",
+            "data_type": "number",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "single",
+            "field_database_editor_format": "percentage",
+            "field_editable_in_database_editor": true,
+            "field_type": "percent",
+            "threshold": {
+                "minimum": 40,
+                "maximum": 80
+            },
+            "text_align": "left",
+            "name": "Confidence level",
+            "id": "Confidence level",
+            "display_name": "Confidence level"
+        }
+    },
+    "editable_fields": [],
+    "field_available_in_database_editor": false,
+    "field_client_side_get_data_enabled": false,
+    "field_composition_type": "composite_list",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_default_value_query": "",
+    "field_data_model_binding_default_value_query_with_id": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "",
+    "field_data_model_binding_manual_query_with_id": "",
+    "field_data_model_binding_type": "manual_query",
+    "field_database_editor_data_format": "single_select",
+    "field_datatypes": [],
+    "field_display_key_name": "af_su_dup_analysis",
+    "field_editable_in_database_editor": false,
+    "field_fullview": false,
+    "field_key_name": "tray_c2884RlyNprHwffnqTZ1pX",
+    "field_options": {
+        "options": [
+            {
+                "value": "Mark Anthony",
+                "name": "Designer",
+                "number": "+1 258 666 556",
+                "location": "San Jose, USA",
+                "serial": "2 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Jhon Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaberg Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aalst Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aara Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaren Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aarika Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaron Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaronson Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Ab Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aba Doe",
+                "name": "Abad",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Abagael Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            }
+        ]
+    },
+    "field_responsive": false,
+    "field_schema_column_header_names": "",
+    "field_schema_column_id_header_name_mapping": {},
+    "field_type": "tray",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "field_options.options",
+    "for_localization": {
+        "static_msgs": [],
+        "dynamic_msgs_keys": [
+            "label",
+            "tooltip",
+            "tip_description"
+        ],
+        "concated_msgs": []
+    },
+    "formattedSchema": [
+        {
+            "controlIconUrl": "app/src/images/controls/percent.svg",
+            "controlType": "Percent",
+            "control_display_name": "Percent",
+            "data_type": "number",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "single",
+            "field_database_editor_format": "percentage",
+            "field_editable_in_database_editor": true,
+            "field_type": "percent",
+            "threshold": {
+                "minimum": 40,
+                "maximum": 80
+            },
+            "text_align": "left",
+            "name": "Confidence level",
+            "id": "Confidence level"
+        }
+    ],
+    "formbuilder_theme": "var(--DHQ-primary-color)",
+    "grid_dynamic_height": false,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "Group_options": "single_column",
+    "header_font_size": "var(--DHQ-normal-font)",
+    "header_font_size_unit": "",
+    "header_font_weight": "var(--DHQ-bold)",
+    "header_textColor": "var(--DHQ-primary-font-color)",
+    "headerNames": "",
+    "hidden": false,
+    "hiddenColumnList": [
+        "result_set_id",
+        "user_id",
+        "regulated_account_included",
+        "brand"
+    ],
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_master_control": true,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "label": "Detail View",
+    "label_font_size": "var(--DHQ-control-title)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": true,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "parent_id": "grid_panel_c2883RhgkfY9npgUqfoNK3",
+    "placeholder": "Click, Type to Select",
+    "required": false,
+    "rowsVisible": 10,
+    "sb_mode": "JS",
+    "show_description": false,
+    "show_dfm": false,
+    "show_keyValue": false,
+    "show_new_property": true,
+    "show_tooltip": false,
+    "sid": "sc2884RlyNprHwffnqTZ1pX",
+    "sort_select": false,
+    "tabIndex": "",
+    "tip_description": "",
+    "tooltip": "",
+    "type": "non_input",
+    "unique_name_change": true,
+    "value_font_size": "var(--DHQ-normal-font)",
+    "value_font_size_unit": "",
+    "value_font_weight": "var(--DHQ-bold)",
+    "value_textColor": "var(--DHQ-primary-font-color)",
+    "visibility": true,
+    "wrapper_content_alignment": "flex-start"
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "field": "success",
+        "display_name": "success",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "message",
+        "display_name": "message",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "result",
+        "display_name": "result",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]

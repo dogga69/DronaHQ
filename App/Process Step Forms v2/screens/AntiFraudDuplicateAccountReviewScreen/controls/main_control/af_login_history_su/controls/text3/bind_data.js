@@ -1,0 +1,1 @@
+{{selected_user_login_history.current_page}} / {{selected_user_login_history.total_pages}}

@@ -1,0 +1,12 @@
+{
+    "event_name": "save_changes",
+    "selector": "[eventname = 'save_changes']",
+    "event_type": "click",
+    "actionflow_id": "af_tray_c810RbEC27SF80ouSz36S_save_changes_click",
+    "next_actions": [],
+    "prev_actions": [],
+    "actions": [],
+    "category": "",
+    "interval": "",
+    "action_label": ""
+}

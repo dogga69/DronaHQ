@@ -1,0 +1,11 @@
+{
+    "cat_id": 100011,
+    "channel_id": 2,
+    "cat_auth_scheme": "multistep_auth",
+    "cat_desc": "",
+    "cat_icon": "./Images/dblogos/restapi.png",
+    "cat_name": "SanctionsDetailsAPIV2",
+    "cat_type": "",
+    "db_type": "",
+    "is_deleted": 0
+}

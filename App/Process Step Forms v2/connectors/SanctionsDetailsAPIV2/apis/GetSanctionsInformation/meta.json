@@ -1,0 +1,14 @@
+{
+    "sub_cat_id": 100034,
+    "sub_catName": "GetSanctionsInformation",
+    "sub_catIcon": "./Images/dblogos/restapi.png",
+    "sub_cat_created_on": "2025-09-25T14:25:55.000Z",
+    "sub_cat_modify_on": "2025-09-25T14:25:55.000Z",
+    "sub_cat_format_id": "8c27ee04-9a1b-11f0-b375-f2f521e061fa",
+    "sub_cat_created_by": "",
+    "sub_cat_method": "GET",
+    "sub_cat_is_public": false,
+    "plugin_id": 0,
+    "isSubCatInstalled": false,
+    "isSubCatEditable": true
+}

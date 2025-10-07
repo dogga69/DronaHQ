@@ -1,0 +1,50 @@
+[
+    {
+        "field": "HEADERS",
+        "display_name": "HEADERS",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "RESPONSE_CODE",
+        "display_name": "RESPONSE_CODE",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "RESPONSE_MESSAGE",
+        "display_name": "RESPONSE_MESSAGE",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "FAILURE_CODE",
+        "display_name": "FAILURE_CODE",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "FAILURE_MESSAGE",
+        "display_name": "FAILURE_MESSAGE",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "TIMESTAMP",
+        "display_name": "TIMESTAMP",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "DURATION",
+        "display_name": "DURATION",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "RESPONSE_SIZE",
+        "display_name": "RESPONSE_SIZE",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]

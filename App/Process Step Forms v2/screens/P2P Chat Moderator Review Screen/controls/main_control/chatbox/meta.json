@@ -1,0 +1,722 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "string",
+    "actions": {
+        "action1Icon": "",
+        "action2Icon": "far fa-address-book",
+        "action3Icon": "",
+        "action4Icon": "",
+        "action5Icon": ""
+    },
+    "allow_addition": false,
+    "allow_options_addition_in_editor": true,
+    "allow_pagination": false,
+    "allowHiddenCols": true,
+    "allowSchemaFormatting": true,
+    "arraylist": [
+        {
+            "fullname": "Maria Gerhold",
+            "email": "maria81@example.com",
+            "Department": "Sales",
+            "avatar": "https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/Maria_T4j7j.jpg"
+        },
+        {
+            "fullname": "Fermin Schumm",
+            "email": "fermin.schumm51@example.com",
+            "Department": "Sales",
+            "avatar": "https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/Fermin_6ZIef.jpg"
+        },
+        {
+            "fullname": "Jalyn Labadie",
+            "email": "jalyn.labadie@example.com",
+            "Department": "Accounting",
+            "avatar": "https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/Mask%20Group%204_SsFFA.jpg"
+        },
+        {
+            "fullname": "Garrick Wayne",
+            "email": "garrick77@example.com",
+            "Department": "HR",
+            "avatar": "https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/Mask%20Group%203_OsbX8.jpg"
+        },
+        {
+            "fullname": "Candace Kunze",
+            "email": "candace.kunze@example.com",
+            "Department": "HR",
+            "avatar": "https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/Mask%20Group%206_EA68w.jpg"
+        },
+        {
+            "fullname": "Salma Carroll",
+            "email": "salma.carroll@example.com",
+            "Department": "Accounting",
+            "avatar": "https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/Mask%20Group%205_V8GqI.jpg"
+        }
+    ],
+    "border_color_1": "var(--DHQ-primary-font-color)",
+    "border_color_2": "var(--DHQ-colorpalet-two)",
+    "border_color_3": "var(--DHQ-error-color)",
+    "button_type": "dhq_navigate",
+    "caching": false,
+    "cardMaxWidth": 100,
+    "cardMaxWidth_unit": "%",
+    "cardsOnDesktop": "4",
+    "cardsOnTablet": "3",
+    "cardSpacing": 0.625,
+    "cardSpacing_unit": "rem",
+    "cid": "c2350REAVRTtRHsoLnYx3n",
+    "class_name": "test",
+    "columnVisible": 0,
+    "controlHeight": "auto",
+    "controlType": "multiselection",
+    "ctrl_id": "",
+    "cursorKey": "",
+    "customizeDetailView": true,
+    "data_font_color": "var(--DHQ-primary-font-color)",
+    "data_font_size": "var(--DHQ-normal-font)",
+    "data_font_size_unit": "",
+    "data_font_weight": "var(--DHQ-bold)",
+    "data_submission_enabled": true,
+    "data_type": "string",
+    "default": "",
+    "default_field_options_structure": {
+        "value": "Abagael Doe",
+        "name": "Developer",
+        "number": "+1 255 112 222",
+        "location": "SF, USA",
+        "serial": "15 Years",
+        "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+    },
+    "defaultCursor": "",
+    "defaultCursorValue": "",
+    "defaultSelectedRow": 1,
+    "detailViewCols": [
+        "Message",
+        "Timestamp"
+    ],
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "action_items",
+            "for_localization",
+            "dhq_config",
+            "helperFuncForIcon",
+            "show_new_property"
+        ],
+        "update_to_theme_varaibles": [
+            "title_font_size",
+            "title_font_size_unit",
+            "title_font_weight",
+            "title_font_color",
+            "header_font_size",
+            "header_font_size_unit",
+            "header_font_weight",
+            "data_font_size",
+            "data_font_size_unit",
+            "data_font_weight",
+            "data_font_color",
+            "header_font_color",
+            "label_font_size",
+            "label_font_size_unit",
+            "label_font_weight",
+            "label_text_color",
+            "input_font_weight",
+            "input_font_color",
+            "input_font_size",
+            "border_color_1",
+            "border_color_2",
+            "border_color_3",
+            "imageHeight",
+            "imageHeight_unit",
+            "imageBorderRadius",
+            "imageBorderRadius_unit",
+            "optionTextColor1",
+            "optionTextColor2",
+            "optionTextColor3",
+            "optionTextColor4",
+            "optionTextColor5",
+            "imageMaxHeight",
+            "imageMaxHeight_unit",
+            "cardSpacing",
+            "cardSpacing_unit",
+            "propertyPadding",
+            "propertyPadding_unit",
+            "table_min_height",
+            "table_min_height_unit",
+            "formbuilder_theme"
+        ]
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {
+        "id": "id",
+        "OrderID": "OrderID",
+        "Buyer_CRID": "Buyer_CRID",
+        "Seller_CRID": "Seller_CRID",
+        "Message": "Message",
+        "Timestamp": "Timestamp"
+    },
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 20,
+        "h": 67,
+        "x": 2,
+        "y": 51
+    },
+    "dhqGridDesktop": {
+        "w": 20,
+        "h": 67,
+        "x": 2,
+        "y": 51
+    },
+    "disabled": false,
+    "dummyRowFormatting": {},
+    "dummySchema": {
+        "id": {
+            "data_type": "number",
+            "display_name": "id",
+            "field_type": "number"
+        },
+        "OrderID": {
+            "data_type": "string",
+            "display_name": "OrderID",
+            "field_type": "text"
+        },
+        "Buyer_CRID": {
+            "data_type": "string",
+            "display_name": "Buyer_CRID",
+            "field_type": "text"
+        },
+        "Seller_CRID": {
+            "data_type": "string",
+            "display_name": "Seller_CRID",
+            "field_type": "text"
+        },
+        "Message": {
+            "controlIconUrl": "app/src/images/controls/radio.svg",
+            "controlType": "Radio",
+            "control_display_name": "Radio",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "list",
+            "field_database_editor_format": "single_select",
+            "field_editable_in_database_editor": true,
+            "field_type": "radio",
+            "dynamic_dropdown_options": "",
+            "field_data_option_colors": {},
+            "text_align": "left",
+            "name": "Message",
+            "id": "Message",
+            "display_name": "Message"
+        },
+        "Timestamp": {
+            "data_type": "string",
+            "display_name": "Timestamp",
+            "field_type": "text"
+        },
+        "[BUYER]": {
+            "controlIconUrl": "app/src/images/controls/radio.svg",
+            "controlType": "Radio",
+            "control_display_name": "Radio",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "list",
+            "field_database_editor_format": "single_select",
+            "field_editable_in_database_editor": true,
+            "field_type": "radio",
+            "dynamic_dropdown_options": {},
+            "field_data_option_colors": {
+                "option1": {
+                    "value": "option1",
+                    "label": "option1",
+                    "description": "",
+                    "fontColor": "#000000",
+                    "background": "#D8FEF9",
+                    "icon": "",
+                    "prefix": ""
+                }
+            },
+            "text_align": "left",
+            "name": "[BUYER]",
+            "id": "[BUYER]",
+            "dataSource": [
+                {
+                    "uniquename": "option1",
+                    "value": "option1",
+                    "background": "#D8FEF9",
+                    "label": "option1",
+                    "fontColor": "#000000",
+                    "icon": "",
+                    "prefix": ""
+                }
+            ],
+            "mapped_values_for_dynamic_dropdown": {
+                "dropdown_value": {},
+                "dropdown_label": {},
+                "dropdown_color": {},
+                "dropdown_background": {},
+                "dropdown_description": {},
+                "dropdown_prefix": {}
+            },
+            "flag_value_array_of_obj": true,
+            "display_name": "[BUYER]"
+        },
+        "[SELLER]": {
+            "controlIconUrl": "app/src/images/controls/radio.svg",
+            "controlType": "Radio",
+            "control_display_name": "Radio",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "list",
+            "field_database_editor_format": "single_select",
+            "field_editable_in_database_editor": true,
+            "field_type": "radio",
+            "dynamic_dropdown_options": {},
+            "field_data_option_colors": {
+                "option1": {
+                    "value": "option1",
+                    "label": "option1",
+                    "description": "",
+                    "fontColor": "#000000",
+                    "background": "#FFF5FF",
+                    "icon": "",
+                    "prefix": ""
+                }
+            },
+            "text_align": "right",
+            "name": "[SELLER]",
+            "id": "[SELLER]",
+            "dataSource": [
+                {
+                    "uniquename": "option1",
+                    "value": "option1",
+                    "background": "#FFF5FF",
+                    "label": "option1",
+                    "fontColor": "#000000",
+                    "icon": "",
+                    "prefix": ""
+                }
+            ],
+            "mapped_values_for_dynamic_dropdown": {
+                "dropdown_value": {},
+                "dropdown_label": {},
+                "dropdown_color": {},
+                "dropdown_background": {},
+                "dropdown_description": {},
+                "dropdown_prefix": {}
+            },
+            "flag_value_array_of_obj": true,
+            "display_name": "[SELLER]"
+        }
+    },
+    "endRow": 0,
+    "field_available_in_database_editor": false,
+    "field_client_side_get_data_enabled": true,
+    "field_composition_type": "composite_list",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_default_value_query": "",
+    "field_data_model_binding_default_value_query_with_id": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "",
+    "field_data_model_binding_manual_query_with_id": "",
+    "field_data_model_binding_type": "manual_query",
+    "field_database_editor_data_format": "single_select",
+    "field_datatypes": [],
+    "field_display_key_name": "chatbox",
+    "field_editable_in_database_editor": false,
+    "field_fullview": false,
+    "field_key_name": "dhq_card_grid_c2350REAVRTtRHsoLnYx3n",
+    "field_options": {
+        "options": [
+            {
+                "value": "Mark Anthony",
+                "name": "Designer",
+                "number": "+1 258 666 556",
+                "location": "San Jose, USA",
+                "serial": "2 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Jhon Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaberg Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aalst Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aara Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaren Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aarika Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaron Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aaronson Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Ab Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Aba Doe",
+                "name": "Abad",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            },
+            {
+                "value": "Abagael Doe",
+                "name": "Developer",
+                "number": "+1 255 112 222",
+                "location": "SF, USA",
+                "serial": "15 Years",
+                "random": "1286387tgsdeygd27tege7821teg2ebvd172t"
+            }
+        ]
+    },
+    "field_responsive": false,
+    "field_schema_column_header_names": "",
+    "field_schema_column_id_header_name_mapping": {},
+    "field_type": "dhq_card_grid",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "field_options.options",
+    "filename": "Studio-tabular-list",
+    "fitToScreen": false,
+    "for_localization": {
+        "static_msgs": [
+            "Minimum",
+            "Maximum",
+            "Cancel",
+            "Search",
+            "Delete",
+            "Update",
+            "Refresh",
+            "Download CSV",
+            "Sort Data",
+            "Filter",
+            "Filter by",
+            "Filters",
+            "Reset",
+            "Apply",
+            "Working...",
+            "Persistent",
+            "No Data Configured!",
+            "No data present!"
+        ],
+        "dynamic_msgs_keys": [
+            "label",
+            "searchPlaceholder",
+            "tooltip",
+            "tip_description"
+        ],
+        "concated_msgs": []
+    },
+    "formattedSchema": [
+        {
+            "controlIconUrl": "app/src/images/controls/radio.svg",
+            "controlType": "Radio",
+            "control_display_name": "Radio",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "list",
+            "field_database_editor_format": "single_select",
+            "field_editable_in_database_editor": true,
+            "field_type": "radio",
+            "dynamic_dropdown_options": "",
+            "field_data_option_colors": {},
+            "text_align": "left",
+            "name": "Message",
+            "id": "Message"
+        },
+        {
+            "controlIconUrl": "app/src/images/controls/radio.svg",
+            "controlType": "Radio",
+            "control_display_name": "Radio",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "list",
+            "field_database_editor_format": "single_select",
+            "field_editable_in_database_editor": true,
+            "field_type": "radio",
+            "dynamic_dropdown_options": {},
+            "field_data_option_colors": {
+                "option1": {
+                    "value": "option1",
+                    "label": "option1",
+                    "description": "",
+                    "fontColor": "#000000",
+                    "background": "#D8FEF9",
+                    "icon": "",
+                    "prefix": ""
+                }
+            },
+            "text_align": "left",
+            "name": "[BUYER]",
+            "id": "[BUYER]",
+            "dataSource": [
+                {
+                    "uniquename": "option1",
+                    "value": "option1",
+                    "background": "#D8FEF9",
+                    "label": "option1",
+                    "fontColor": "#000000",
+                    "icon": "",
+                    "prefix": ""
+                }
+            ],
+            "mapped_values_for_dynamic_dropdown": {
+                "dropdown_value": {},
+                "dropdown_label": {},
+                "dropdown_color": {},
+                "dropdown_background": {},
+                "dropdown_description": {},
+                "dropdown_prefix": {}
+            },
+            "flag_value_array_of_obj": true
+        },
+        {
+            "controlIconUrl": "app/src/images/controls/radio.svg",
+            "controlType": "Radio",
+            "control_display_name": "Radio",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "list",
+            "field_database_editor_format": "single_select",
+            "field_editable_in_database_editor": true,
+            "field_type": "radio",
+            "dynamic_dropdown_options": {},
+            "field_data_option_colors": {
+                "option1": {
+                    "value": "option1",
+                    "label": "option1",
+                    "description": "",
+                    "fontColor": "#000000",
+                    "background": "#FFF5FF",
+                    "icon": "",
+                    "prefix": ""
+                }
+            },
+            "text_align": "right",
+            "name": "[SELLER]",
+            "id": "[SELLER]",
+            "dataSource": [
+                {
+                    "uniquename": "option1",
+                    "value": "option1",
+                    "background": "#FFF5FF",
+                    "label": "option1",
+                    "fontColor": "#000000",
+                    "icon": "",
+                    "prefix": ""
+                }
+            ],
+            "mapped_values_for_dynamic_dropdown": {
+                "dropdown_value": {},
+                "dropdown_label": {},
+                "dropdown_color": {},
+                "dropdown_background": {},
+                "dropdown_description": {},
+                "dropdown_prefix": {}
+            },
+            "flag_value_array_of_obj": true
+        }
+    ],
+    "formbuilder_theme": "var(--DHQ-success-light-color)",
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "gridDesktopOrigin": 4,
+    "header_font_color": "var(--DHQ-primary-font-color)",
+    "header_font_size": "var(--DHQ-small-font)",
+    "header_font_size_unit": "",
+    "header_font_weight": "var(--DHQ-normal-weight)",
+    "headerNames": "",
+    "helperFuncForIcon": true,
+    "hidden": false,
+    "hiddenColumnList": [
+        "id",
+        "OrderID",
+        "Buyer_CRID",
+        "Seller_CRID"
+    ],
+    "imageBorderRadius": 3.5,
+    "imageBorderRadius_unit": "rem",
+    "imageColumnName": "id",
+    "imageError": "hideImage",
+    "imageFit": "cover",
+    "imageFullSize": true,
+    "imageHeight": 7.5,
+    "imageHeight_unit": "rem",
+    "imageMaxHeight": "100",
+    "imageMaxHeight_unit": "%",
+    "imagePosition": "right",
+    "imageWidth": "120",
+    "imageWidth_unit": "px",
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_master_control": true,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "label": "News Card",
+    "label_font_size": "var(--DHQ-control-title)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": true,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "layout": "list",
+    "offset": 0,
+    "optionName1": "Sender",
+    "optionName2": "Buyer",
+    "optionName3": "",
+    "optionName4": "",
+    "optionName5": "",
+    "optionTextColor1": "var(--DHQ-colorpalet-one)",
+    "optionTextColor2": "var(--DHQ-note-color)",
+    "optionTextColor3": "var(--DHQ-colorpalet-six)",
+    "optionTextColor4": "var(--DHQ-colorpalet-two)",
+    "optionTextColor5": "var(--DHQ-error-color)",
+    "pageLimit": 100,
+    "paginationLocation": "bottom",
+    "paginationType": "limitOffsetBased",
+    "parent_id": "",
+    "persist_filters": true,
+    "placeholder": "Click, Type to Select",
+    "propertyPadding": 0.75,
+    "propertyPadding_unit": "rem",
+    "qf_columnNames": [],
+    "required": false,
+    "rowsVisible": 10,
+    "sb_mode": "JS",
+    "search_show": false,
+    "searchPlaceholder": "Search",
+    "show_action1": true,
+    "show_action2": true,
+    "show_action3": false,
+    "show_action4": false,
+    "show_action5": false,
+    "show_coverImage": false,
+    "show_description": false,
+    "show_detailedView": true,
+    "show_dfm": true,
+    "show_download": false,
+    "show_filters": false,
+    "show_headers": false,
+    "show_keyValue": true,
+    "show_new_property": true,
+    "show_quickFilters": false,
+    "show_refresh": false,
+    "show_sort_data": false,
+    "show_title": true,
+    "show_tooltip": false,
+    "showServerSidelSearch": false,
+    "sid": "sc2350REAVRTtRHsoLnYx3n",
+    "sort_select": false,
+    "startRow": 0,
+    "statesObj": {
+        "Icon Block": {
+            "state1": {
+                "className": "state_1",
+                "selector": "clusterize-content"
+            },
+            "state2": {
+                "className": "state_2",
+                "selector": "clusterize-content"
+            },
+            "state3": {
+                "className": "state_3",
+                "selector": "clusterize-content"
+            }
+        }
+    },
+    "tabIndex": "",
+    "table_min_height": 18.75,
+    "table_min_height_unit": "rem",
+    "tip_description": "",
+    "title_font_color": "var(--DHQ-primary-font-color)",
+    "title_font_size": "var(--DHQ-normal-font)",
+    "title_font_size_unit": "",
+    "title_font_weight": "var(--DHQ-x-bold)",
+    "titleColumnName": "",
+    "tooltip": "",
+    "type": "non_input",
+    "unique_name_change": true,
+    "visibility": true,
+    "wrapper_content_alignment": "flex-start"
+}

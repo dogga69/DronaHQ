@@ -1,0 +1,1 @@
+{{ProductTabs[0]}}

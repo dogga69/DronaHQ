@@ -1,0 +1,20 @@
+{
+    "card_click": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'card_click']"
+    },
+    "back": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'back']"
+    },
+    "next": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'next']"
+    }
+}

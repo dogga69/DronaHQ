@@ -1,0 +1,94 @@
+{
+    "api_id": 2,
+    "api_name": "variable_RcUgdXVxpvy8M8Iir1758009270084",
+    "cat_id": "__REPLACE_CAT_ID_100012___",
+    "cat_name": "__REPLACE_CAT_NAME_100012___",
+    "sub_cat_id": "__REPLACE_SUB_CAT_ID_100032___",
+    "sub_cat_name": "__REPLACE_SUB_CAT_NAME_100032___",
+    "cat_icon_url": "./Images/dblogos/restapi.png",
+    "method": "get",
+    "query": {
+        "binary_user_id": {
+            "keyName": "binary_user_id",
+            "spanName": null,
+            "isField": true,
+            "keyType": "text",
+            "keyValue": "{{client_id}}",
+            "testValue": "12448382",
+            "preselect": false,
+            "name": "",
+            "label": "",
+            "isDynamic": false,
+            "editor_type": "JSEditor"
+        }
+    },
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "application/x-www-form-urlencoded",
+        "formdata": {},
+        "variables": {}
+    },
+    "auth": {},
+    "triggerOnPageload": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "error_msg": "",
+    "filterKeysOptions": {},
+    "scheme_type": "multistep_auth",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "allow_offline_submission": false,
+    "download_as_file": false,
+    "secureResponse": false,
+    "rawResponse": {
+        "success": 1,
+        "message": "successful operation",
+        "result": [
+            {
+                "binary_user_id": 12448382,
+                "bo_loginid_list": [
+                    "CR5655499"
+                ],
+                "mt5_loginid_list": [
+                    "MTR61674930"
+                ],
+                "ctrader_loginid_list": [
+                    "CTR1030627"
+                ],
+                "derivx_loginid_list": [],
+                "wallet_loginid_list": "{CRW74680,CRW74681,CRW74683,CRW74686}",
+                "first_name": "Laura Cristina",
+                "last_name": "Loaiza Londoño",
+                "email": "parrajuanesteban469@gmail.com",
+                "phone_number": "624644966",
+                "phone_number_verified": "✅",
+                "join_date": "2023-06-22 17:48:11",
+                "date_of_birth": "2001-09-08",
+                "citizen": "co",
+                "residence": "co",
+                "address_line_1": "Calle 42C #63C-25",
+                "address_line_2": "",
+                "address_city": "Medellin",
+                "address_state": "ANT",
+                "address_postcode": "052001",
+                "registered_through_partner": "❌",
+                "gender": "male",
+                "last_login_timestamp": "2025-09-08 09:36:16",
+                "is_payment_agent": "❌",
+                "is_affiliate": "❌"
+            }
+        ]
+    },
+    "processedResp": {},
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "autoTransform": false,
+    "cat_type": ""
+}

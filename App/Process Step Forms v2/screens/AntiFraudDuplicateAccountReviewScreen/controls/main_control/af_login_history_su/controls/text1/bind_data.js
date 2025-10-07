@@ -1,0 +1,1 @@
+Device count: {{su_device_count}}

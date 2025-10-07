@@ -1,0 +1,140 @@
+[
+    {
+        "field": "id",
+        "display_name": "id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "region",
+        "display_name": "region",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "external_reference_id",
+        "display_name": "external_reference_id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "brand_id",
+        "display_name": "brand_id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "email",
+        "display_name": "email",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "first_name",
+        "display_name": "first_name",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "last_name",
+        "display_name": "last_name",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "nickname",
+        "display_name": "nickname",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "date_of_birth",
+        "display_name": "date_of_birth",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "residence",
+        "display_name": "residence",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "citizenship",
+        "display_name": "citizenship",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "country_of_birth",
+        "display_name": "country_of_birth",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "address_line_1",
+        "display_name": "address_line_1",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "address_line_2",
+        "display_name": "address_line_2",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "address_state",
+        "display_name": "address_state",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "address_city",
+        "display_name": "address_city",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "address_postcode",
+        "display_name": "address_postcode",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "phone_calling_code",
+        "display_name": "phone_calling_code",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "phone_national_format",
+        "display_name": "phone_national_format",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "phone_country_code",
+        "display_name": "phone_country_code",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "salutation",
+        "display_name": "salutation",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "created_at",
+        "display_name": "created_at",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "updated_at",
+        "display_name": "updated_at",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]

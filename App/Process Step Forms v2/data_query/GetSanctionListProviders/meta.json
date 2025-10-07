@@ -1,0 +1,32 @@
+{
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "allow_offline_submission": false,
+    "auto_evaluate": false,
+    "created_at": 1758704343584,
+    "datatype": "composite_list",
+    "defaultValue": "",
+    "dhq_req_stats": {},
+    "dhq_set_value_via_action": false,
+    "display_name": "GetSanctionListProviders",
+    "download_as_file": false,
+    "evaluate_on_dependency_change": "everytime",
+    "field_composition_type": "variable",
+    "field_data_model_binding_manual_query": "BINDAPI([variable_RI0Zua5DEQ0Coo7jZ1758704343584.id,variable_RI0Zua5DEQ0Coo7jZ1758704343584.provider_name,variable_RI0Zua5DEQ0Coo7jZ1758704343584.provider_url,variable_RI0Zua5DEQ0Coo7jZ1758704343584.publish_date,variable_RI0Zua5DEQ0Coo7jZ1758704343584.hash,variable_RI0Zua5DEQ0Coo7jZ1758704343584.number_of_entries,variable_RI0Zua5DEQ0Coo7jZ1758704343584.last_checked])",
+    "field_data_model_binding_manual_query_with_id": "BINDAPI( [variable_RI0Zua5DEQ0Coo7jZ1758704343584.id,variable_RI0Zua5DEQ0Coo7jZ1758704343584.provider_name,variable_RI0Zua5DEQ0Coo7jZ1758704343584.provider_url,variable_RI0Zua5DEQ0Coo7jZ1758704343584.publish_date,variable_RI0Zua5DEQ0Coo7jZ1758704343584.hash,variable_RI0Zua5DEQ0Coo7jZ1758704343584.number_of_entries,variable_RI0Zua5DEQ0Coo7jZ1758704343584.last_checked])",
+    "field_data_model_binding_type": "",
+    "formula_binded_to": "BindAPI",
+    "interval": {
+        "instance": null,
+        "timeout": null
+    },
+    "is_dql": false,
+    "is_from_action_flow": false,
+    "is_master_variable": true,
+    "name": "variable_RI0Zua5DEQ0Coo7jZ1758704343584",
+    "sanitize_response_keys": false,
+    "sb_mode": "JS",
+    "state": "success",
+    "type": "non-persistent",
+    "variable_parent_folder_id": null
+}
