@@ -1,0 +1,58 @@
+{
+    "api_name": "variable_Rshi5GuslQP4VTVLA1760082621110",
+    "cat_id": "__REPLACE_CAT_ID_100002___",
+    "cat_name": "__REPLACE_CAT_NAME_100002___",
+    "sub_cat_name": "query_2",
+    "cat_icon_url": "./Images/dblogos/postgres.png",
+    "method": "db_query",
+    "query": {},
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "db_query",
+        "formdata": {},
+        "variables": {}
+    },
+    "auth": {},
+    "triggerOnPageload": false,
+    "autoTransform": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "error_msg": "",
+    "scheme_type": "db_connector",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "allow_offline_submission": false,
+    "download_as_file": false,
+    "secureResponse": true,
+    "rawResponse": [
+        {
+            "id": 1,
+            "product_name": "FirstName1",
+            "category": "LastName1",
+            "sales_amount": "employee1@example.com",
+            "sales_date": "2022-02-15T00:00:00.000Z",
+            "region": "44082.95"
+        }
+    ],
+    "processedResp": {},
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "createdVia": "variable",
+    "resource_reference": "__REPLACE_RESOURCE_REFERENCE_ID__",
+    "filterKeysOptions": {
+        "id": "1",
+        "product_name": "FirstName1",
+        "category": "LastName1",
+        "sales_amount": "employee1@example.com",
+        "sales_date": "2022-02-15T00:00:00.000Z",
+        "region": "44082.95"
+    },
+    "cat_type": "postgres"
+}

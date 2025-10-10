@@ -314,6 +314,7 @@
     "label_position": "top",
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
+    "parent_id": "",
     "placeholder": "Click, Type to Select",
     "required": false,
     "rowsVisible": 10,

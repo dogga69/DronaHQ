@@ -1,0 +1,67 @@
+{
+    "name": "variable_Rshi5GuslQP4VTVLA1760082621110",
+    "channel_id": "__REPLACE_CHANNEL_ID___",
+    "category_id": "__REPLACE_CAT_ID_100002___",
+    "sub_category_id": null,
+    "response": {
+        "success": true,
+        "contentType": "",
+        "content": [
+            {
+                "id": 1,
+                "product_name": "FirstName1",
+                "category": "LastName1",
+                "sales_amount": "employee1@example.com",
+                "sales_date": "2022-02-15T00:00:00.000Z",
+                "region": "44082.95"
+            }
+        ],
+        "Headers": [],
+        "StatusCode": 200,
+        "StatusDescription": "Ok"
+    },
+    "failure": {
+        "Header": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "dynamic_variables": [],
+        "success": false
+    },
+    "failureCondition": [],
+    "proxy": false,
+    "preselectfields": [],
+    "preselectvariables": [],
+    "service_type": null,
+    "scheme_type": "db_connector",
+    "cat_format_id": "",
+    "includeBodyHash": false,
+    "dynamic_variables": null,
+    "instructions": null,
+    "request": {
+        "method": "DB_QUERY",
+        "body": {
+            "variables": [],
+            "mode": "db_query",
+            "queryEditor": "sql"
+        },
+        "header": [],
+        "url": {
+            "raw": "",
+            "protocol": "",
+            "query": [],
+            "param": []
+        },
+        "description": "",
+        "remove_empty_keys": false,
+        "skip_uri_component_encoding": false,
+        "request_timeout": 0
+    },
+    "usedInVariable": true,
+    "variableDisName": "query_2",
+    "is_deleted": 0,
+    "meta": "",
+    "isAppInternalSubcat": 1,
+    "bindable": true,
+    "resource_reference": "__REPLACE_RESOURCE_REFERENCE_ID__"
+}

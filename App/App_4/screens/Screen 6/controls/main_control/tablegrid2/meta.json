@@ -58,7 +58,7 @@
     "button_type": "dhq_navigate",
     "caching": false,
     "changeRowSize": false,
-    "cid": "c188RAtT5uhnPNXo4cJ7v",
+    "cid": "c240R7NbV7LZMZ1qYjDzi",
     "class_name": "test",
     "columnVisible": 0,
     "colwidth": 120,
@@ -67,19 +67,12 @@
     "ctrl_id": "",
     "cursorKey": "",
     "custom_column_widths": [
-        127,
-        135,
-        76,
-        77,
-        76,
-        97,
-        76,
-        76,
-        76,
-        76,
-        76,
-        111,
-        146
+        81,
+        114,
+        105,
+        199,
+        215,
+        90
     ],
     "custom_column_widths_mapping": {},
     "custom_label_save_btn": "Save Changes",
@@ -144,12 +137,7 @@
         "data": {}
     },
     "dhq_nsf_replaced": false,
-    "dhq_olddt_map": {
-        "one": "one",
-        "onet": "onet",
-        "two": "two",
-        "six": "six"
-    },
+    "dhq_olddt_map": {},
     "dhq_req_stats": {
         "status": ""
     },
@@ -159,15 +147,15 @@
     "dhqGrid": {
         "w": 16,
         "h": 47,
-        "x": 2,
-        "y": 17
+        "x": 5,
+        "y": 49
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 16,
         "h": 47,
-        "x": 2,
-        "y": 17
+        "x": 5,
+        "y": 49
     },
     "disabled": false,
     "display_map": false,
@@ -182,137 +170,34 @@
         ]
     },
     "dummySchema": {
-        "converted_balance": {
+        "id": {
+            "data_type": "number",
+            "display_name": "id",
+            "field_type": "number"
+        },
+        "product_name": {
             "data_type": "string",
-            "display_name": "converted_balance",
+            "display_name": "product_name",
             "field_type": "text"
         },
-        "conversion_currency": {
+        "category": {
             "data_type": "string",
-            "display_name": "conversion_currency",
+            "display_name": "category",
             "field_type": "text"
         },
-        "client_id": {
+        "sales_amount": {
             "data_type": "string",
-            "display_name": "client_id",
+            "display_name": "sales_amount",
             "field_type": "text"
         },
-        "wallet_id": {
+        "sales_date": {
             "data_type": "string",
-            "display_name": "wallet_id",
+            "display_name": "sales_date",
             "field_type": "text"
         },
-        "type": {
+        "region": {
             "data_type": "string",
-            "display_name": "type",
-            "field_type": "text"
-        },
-        "counterparty": {
-            "data_type": "string",
-            "display_name": "counterparty",
-            "field_type": "text"
-        },
-        "status": {
-            "controlIconUrl": "app/src/images/controls/text.svg",
-            "controlType": "Text",
-            "control_display_name": "Text",
-            "data_type": "string",
-            "field_available_in_database_editor": true,
-            "field_composition_type": "single",
-            "field_database_editor_format": "single_line_text",
-            "field_editable_in_database_editor": true,
-            "field_type": "text",
-            "name": "status",
-            "id": "status",
-            "condition_formating": [
-                {
-                    "query": ".status = \"Active\"",
-                    "bold": false,
-                    "italic": false,
-                    "underline": false,
-                    "strikethrough": false,
-                    "background": "#00000000",
-                    "textcolor": "#0A9449",
-                    "text_alignment": "flex-start",
-                    "font_size": "14px",
-                    "icon_markup": "<i class=\"fas fa-toggle-on\" style=\"color: rgb(38, 188, 106);\"></i>",
-                    "icon_color": "#26BC6A",
-                    "query_obj": {
-                        "operator": "=",
-                        "value": "Active",
-                        "operand_column": "status"
-                    },
-                    "Formating_type": "single-color"
-                },
-                {
-                    "query": ".status = \"Inactive\"",
-                    "bold": false,
-                    "italic": false,
-                    "underline": false,
-                    "strikethrough": false,
-                    "background": "#FFFFFF",
-                    "textcolor": "#8B969C",
-                    "text_alignment": "flex-start",
-                    "font_size": "14px",
-                    "icon_markup": "<i class=\"fas fa-toggle-off\" style=\"color: rgb(155, 155, 155);\"></i>",
-                    "icon_color": "#9B9B9B",
-                    "query_obj": {
-                        "operator": "=",
-                        "value": "Inactive",
-                        "operand_column": "status"
-                    },
-                    "Formating_type": "single-color"
-                },
-                {
-                    "query": ".status = \"Pending\"",
-                    "bold": false,
-                    "italic": false,
-                    "underline": false,
-                    "strikethrough": false,
-                    "background": "#FFFFFF00",
-                    "textcolor": "#DF7000",
-                    "text_alignment": "flex-start",
-                    "font_size": "14px",
-                    "icon_markup": "<i class=\"far fa-clock\" style=\"color: rgb(255, 162, 0);\"></i>",
-                    "icon_color": "#FFA200",
-                    "query_obj": {
-                        "operator": "=",
-                        "value": "Pending",
-                        "operand_column": "status"
-                    },
-                    "Formating_type": "single-color"
-                }
-            ],
-            "display_name": "status"
-        },
-        "balance": {
-            "data_type": "string",
-            "display_name": "balance",
-            "field_type": "text"
-        },
-        "input": {
-            "data_type": "string",
-            "display_name": "input",
-            "field_type": "text"
-        },
-        "output": {
-            "data_type": "string",
-            "display_name": "output",
-            "field_type": "text"
-        },
-        "currency": {
-            "data_type": "string",
-            "display_name": "currency",
-            "field_type": "text"
-        },
-        "conversion_rate": {
-            "data_type": "string",
-            "display_name": "conversion_rate",
-            "field_type": "text"
-        },
-        "conversion_timestamp": {
-            "data_type": "string",
-            "display_name": "conversion_timestamp",
+            "display_name": "region",
             "field_type": "text"
         },
         "teams": {
@@ -398,6 +283,79 @@
             ],
             "display_name": "name"
         },
+        "status": {
+            "controlIconUrl": "app/src/images/controls/text.svg",
+            "controlType": "Text",
+            "control_display_name": "Text",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "single",
+            "field_database_editor_format": "single_line_text",
+            "field_editable_in_database_editor": true,
+            "field_type": "text",
+            "name": "status",
+            "id": "status",
+            "condition_formating": [
+                {
+                    "query": ".status = \"Active\"",
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "background": "#00000000",
+                    "textcolor": "#0A9449",
+                    "text_alignment": "flex-start",
+                    "font_size": "14px",
+                    "icon_markup": "<i class=\"fas fa-toggle-on\" style=\"color: rgb(38, 188, 106);\"></i>",
+                    "icon_color": "#26BC6A",
+                    "query_obj": {
+                        "operator": "=",
+                        "value": "Active",
+                        "operand_column": "status"
+                    },
+                    "Formating_type": "single-color"
+                },
+                {
+                    "query": ".status = \"Inactive\"",
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "background": "#FFFFFF",
+                    "textcolor": "#8B969C",
+                    "text_alignment": "flex-start",
+                    "font_size": "14px",
+                    "icon_markup": "<i class=\"fas fa-toggle-off\" style=\"color: rgb(155, 155, 155);\"></i>",
+                    "icon_color": "#9B9B9B",
+                    "query_obj": {
+                        "operator": "=",
+                        "value": "Inactive",
+                        "operand_column": "status"
+                    },
+                    "Formating_type": "single-color"
+                },
+                {
+                    "query": ".status = \"Pending\"",
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "background": "#FFFFFF00",
+                    "textcolor": "#DF7000",
+                    "text_alignment": "flex-start",
+                    "font_size": "14px",
+                    "icon_markup": "<i class=\"far fa-clock\" style=\"color: rgb(255, 162, 0);\"></i>",
+                    "icon_color": "#FFA200",
+                    "query_obj": {
+                        "operator": "=",
+                        "value": "Pending",
+                        "operand_column": "status"
+                    },
+                    "Formating_type": "single-color"
+                }
+            ],
+            "display_name": "status"
+        },
         "created_at": {
             "controlIconUrl": "app/src/images/controls/time.svg",
             "controlType": "DateTime",
@@ -434,88 +392,46 @@
     "field_database_editor_data_format": "single_select",
     "field_datatypes": [
         {
-            "field": "converted_balance",
-            "display_name": "converted_balance",
-            "data_type": "object",
+            "field": "id",
+            "display_name": "id",
+            "data_type": "number",
             "field_database_editor_data_format": "single_line_text"
         },
         {
-            "field": "conversion_currency",
-            "display_name": "conversion_currency",
-            "data_type": "object",
+            "field": "product_name",
+            "display_name": "product_name",
+            "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         },
         {
-            "field": "client_id",
-            "display_name": "client_id",
-            "data_type": "object",
+            "field": "category",
+            "display_name": "category",
+            "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         },
         {
-            "field": "wallet_id",
-            "display_name": "wallet_id",
-            "data_type": "object",
+            "field": "sales_amount",
+            "display_name": "sales_amount",
+            "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         },
         {
-            "field": "type",
-            "display_name": "type",
-            "data_type": "object",
+            "field": "sales_date",
+            "display_name": "sales_date",
+            "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         },
         {
-            "field": "counterparty",
-            "display_name": "counterparty",
-            "data_type": "object",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "status",
-            "display_name": "status",
-            "data_type": "object",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "balance",
-            "display_name": "balance",
-            "data_type": "object",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "input",
-            "display_name": "input",
-            "data_type": "object",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "output",
-            "display_name": "output",
-            "data_type": "object",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "currency",
-            "display_name": "currency",
-            "data_type": "object",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "conversion_rate",
-            "display_name": "conversion_rate",
-            "data_type": "object",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "conversion_timestamp",
-            "display_name": "conversion_timestamp",
-            "data_type": "object",
+            "field": "region",
+            "display_name": "region",
+            "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         }
     ],
-    "field_display_key_name": "tablegrid1",
+    "field_display_key_name": "tablegrid2",
     "field_editable_in_database_editor": false,
     "field_fullview": false,
-    "field_key_name": "list_c188RAtT5uhnPNXo4cJ7v",
+    "field_key_name": "list_c240R7NbV7LZMZ1qYjDzi",
     "field_options": {
         "options": [
             {
@@ -735,21 +651,14 @@
         ]
     },
     "field_responsive": false,
-    "field_schema_column_header_names": "converted_balance,conversion_currency,client_id,wallet_id,type,counterparty,status,balance,input,output,currency,conversion_rate,conversion_timestamp",
+    "field_schema_column_header_names": "id,product_name,category,sales_amount,sales_date,region",
     "field_schema_column_id_header_name_mapping": {
-        "client_id": "client_id",
-        "wallet_id": "wallet_id",
-        "counterparty": "counterparty",
-        "type": "type",
-        "status": "status",
-        "balance": "balance",
-        "input": "input",
-        "output": "output",
-        "currency": "currency",
-        "conversion_rate": "conversion_rate",
-        "conversion_timestamp": "conversion_timestamp",
-        "conversion_currency": "conversion_currency",
-        "converted_balance": "converted_balance"
+        "id": "id",
+        "product_name": "product_name",
+        "category": "category",
+        "sales_amount": "sales_amount",
+        "sales_date": "sales_date",
+        "region": "region"
     },
     "field_type": "list",
     "field_values_addition_enabled_in_database_editor": true,
@@ -1142,19 +1051,12 @@
     "selectedRowBg": "var(--DHQ-primary-light-color)",
     "selectedRows": [
         {
-            "converted_balance": null,
-            "conversion_currency": null,
-            "client_id": null,
-            "wallet_id": null,
-            "type": null,
-            "counterparty": null,
-            "status": null,
-            "balance": null,
-            "input": null,
-            "output": null,
-            "currency": null,
-            "conversion_rate": null,
-            "conversion_timestamp": null
+            "id": 1,
+            "product_name": "FirstName1",
+            "category": "LastName1",
+            "sales_amount": "employee1@example.com",
+            "sales_date": "2022-02-15T00:00:00.000Z",
+            "region": "44082.95"
         }
     ],
     "selectionType": "singleselect",
@@ -1173,7 +1075,7 @@
     "show_new_property": true,
     "show_quickFilters": true,
     "show_refresh": true,
-    "show_sort_columns": true,
+    "show_sort_columns": false,
     "show_sort_data": true,
     "show_tooltip": false,
     "show_update": false,
@@ -1191,7 +1093,7 @@
     "showInHeaderAction5": true,
     "showRefreshAnimation": true,
     "showServerSidelSearch": false,
-    "sid": "sc188RAtT5uhnPNXo4cJ7v",
+    "sid": "sc240R7NbV7LZMZ1qYjDzi",
     "single_select": false,
     "sort_select": false,
     "sortquery": false,

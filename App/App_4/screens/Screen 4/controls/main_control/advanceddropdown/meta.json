@@ -208,6 +208,7 @@
     "paginationLocation": "top",
     "PaginationSide": "serversidepagination",
     "paginationType": "limitOffsetBased",
+    "parent_id": "",
     "prefix_column": "prefix",
     "primary_font": "var(--DHQ-primary-font-color)",
     "required": false,

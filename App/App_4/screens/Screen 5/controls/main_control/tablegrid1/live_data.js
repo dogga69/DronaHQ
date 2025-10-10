@@ -1,6 +1,7 @@
 [
     {
         "converted_balance": null,
+        "conversion_currency": null,
         "client_id": null,
         "wallet_id": null,
         "type": null,
@@ -11,7 +12,6 @@
         "output": null,
         "currency": null,
         "conversion_rate": null,
-        "conversion_timestamp": null,
-        "conversion_currency": null
+        "conversion_timestamp": null
     }
 ]

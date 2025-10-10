@@ -1,0 +1,21 @@
+{
+    "cat_id": 100002,
+    "catName": "Neon_Postgres",
+    "catDesc": "",
+    "catIcon": "./Images/dblogos/postgres.png",
+    "schemeType": "db_connector",
+    "cat_created_on": null,
+    "cat_modify_on": null,
+    "cat_created_by": "",
+    "isGlobal": false,
+    "isEditable": true,
+    "isCatPublic": false,
+    "isInstalled": false,
+    "isCatEditable": true,
+    "showAddOption": true,
+    "cat_type": "postgres",
+    "format_id": "4f9672e4-988e-11f0-9f9d-5e08ad2aedcd",
+    "permission": "1000",
+    "multistep_auth_steps": {},
+    "channel_id": "2"
+}
