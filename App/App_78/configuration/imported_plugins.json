@@ -1,0 +1,15 @@
+{
+    "css": [],
+    "js": [
+        "https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jsrsasign/11.1.0/jsrsasign-all-min.js"
+    ],
+    "sequence": [
+        {
+            "fileUrl": "https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"
+        },
+        {
+            "fileUrl": "https://cdnjs.cloudflare.com/ajax/libs/jsrsasign/11.1.0/jsrsasign-all-min.js"
+        }
+    ]
+}
