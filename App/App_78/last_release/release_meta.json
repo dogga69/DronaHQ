@@ -1,10 +1,10 @@
 {
   "PackageWithNewControls": true,
-  "releaseNotes": "publish",
+  "releaseNotes": "another library added",
   "usedFieldsName": "list,Paragraph,dhq_user_details,dhq_json_viewer,tray",
   "metadata": {},
   "env": "prod",
-  "newVersion": "0.0.2",
+  "newVersion": "0.0.3",
   "pluginId": "1",
   "subCatList": "",
   "multistepAuthUsedInAppList": [],
