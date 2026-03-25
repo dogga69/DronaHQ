@@ -1,0 +1,50 @@
+{
+    "api_name": "variable_RdlnEdf4pAMRHXPVc1759814990250",
+    "cat_id": "__REPLACE_CAT_ID_100014___",
+    "cat_name": "__REPLACE_CAT_NAME_100014___",
+    "sub_cat_name": "query_1",
+    "cat_icon_url": "./Images/dblogos/restapi.png",
+    "method": "get",
+    "query": {},
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "application/x-www-form-urlencoded",
+        "formdata": {},
+        "variables": {}
+    },
+    "auth": {},
+    "triggerOnPageload": false,
+    "autoTransform": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "error_msg": "",
+    "scheme_type": "no_auth",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "allow_offline_submission": false,
+    "download_as_file": false,
+    "secureResponse": false,
+    "rawResponse": [
+        {
+            "product": "Standard Chair",
+            "description": "A perfectly safe and normal chair."
+        }
+    ],
+    "processedResp": {},
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "createdVia": "variable",
+    "resource_reference": "__REPLACE_RESOURCE_REFERENCE_ID__",
+    "filterKeysOptions": {
+        "product": "Standard Chair",
+        "description": "A perfectly safe and normal chair."
+    },
+    "cat_type": ""
+}

@@ -1,0 +1,114 @@
+{
+    "name": "variable_RdlnEdf4pAMRHXPVc1759814990250",
+    "channel_id": "__REPLACE_CHANNEL_ID___",
+    "category_id": "__REPLACE_CAT_ID_100014___",
+    "sub_category_id": null,
+    "response": {
+        "contentType": "application/json; charset=utf-8",
+        "content": [
+            {
+                "product": "Standard Chair",
+                "description": "A perfectly safe and normal chair."
+            }
+        ],
+        "Headers": [
+            {
+                "key": "date",
+                "value": "Tue, 07 Oct 2025 05:36:17 GMT"
+            },
+            {
+                "key": "content_type",
+                "value": "application/json; charset=utf-8"
+            },
+            {
+                "key": "transfer_encoding",
+                "value": "chunked"
+            },
+            {
+                "key": "connection",
+                "value": "close"
+            },
+            {
+                "key": "cf_ray",
+                "value": "98ab0a3e8acb3f03-BOM"
+            },
+            {
+                "key": "cache_control",
+                "value": "max-age=0, private, must-revalidate"
+            },
+            {
+                "key": "etag",
+                "value": "W/\"925f917bbd6d05f62f8124a09e160388\""
+            },
+            {
+                "key": "rndr_id",
+                "value": "843feeb6-0aea-4e0b"
+            },
+            {
+                "key": "strict_transport_security",
+                "value": "max-age=15552000; includeSubDomains"
+            },
+            {
+                "key": "vary",
+                "value": "Origin, Accept-Encoding"
+            },
+            {
+                "key": "x_content_type_options",
+                "value": "nosniff"
+            },
+            {
+                "key": "x_frame_options",
+                "value": "SAMEORIGIN"
+            },
+            {
+                "key": "x_render_origin_server",
+                "value": "Render"
+            },
+            {
+                "key": "x_request_id",
+                "value": "3683205c-b66f-414e-8fc8-18981ca5768b"
+            },
+            {
+                "key": "x_runtime",
+                "value": "0.009078"
+            },
+            {
+                "key": "x_xss_protection",
+                "value": "1; mode=block"
+            },
+            {
+                "key": "cf_cache_status",
+                "value": "DYNAMIC"
+            },
+            {
+                "key": "server",
+                "value": "cloudflare"
+            },
+            {
+                "key": "alt_svc",
+                "value": "h3=\":443\"; ma=86400"
+            }
+        ],
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "failure": {
+        "Header": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "success": false
+    },
+    "failureCondition": [],
+    "proxy": false,
+    "preselectfields": [],
+    "preselectvariables": [],
+    "service_type": null,
+    "scheme_type": "no_auth",
+    "cat_format_id": "",
+    "includeBodyHash": false,
+    "dynamic_variables": [],
+    "instructions": "",
+    "bindable": false,
+    "resource_reference": "__REPLACE_RESOURCE_REFERENCE_ID__"
+}

@@ -1,0 +1,21 @@
+{
+    "cat_id": 100014,
+    "catName": "npoint_mock_api",
+    "catDesc": "",
+    "catIcon": "./Images/dblogos/restapi.png",
+    "schemeType": "no_auth",
+    "cat_created_on": null,
+    "cat_modify_on": null,
+    "cat_created_by": "",
+    "isGlobal": false,
+    "isEditable": true,
+    "isCatPublic": false,
+    "isInstalled": false,
+    "isCatEditable": true,
+    "showAddOption": true,
+    "cat_type": "",
+    "format_id": "9b062541-a33e-11f0-82fb-b2b36153ee91",
+    "permission": "1000",
+    "multistep_auth_steps": {},
+    "channel_id": "2"
+}

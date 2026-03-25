@@ -1,0 +1,26 @@
+[
+    {
+        "field": "event_date",
+        "display_name": "event_date",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "id",
+        "display_name": "id",
+        "data_type": "number",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "description",
+        "display_name": "description",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "amount",
+        "display_name": "amount",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]
