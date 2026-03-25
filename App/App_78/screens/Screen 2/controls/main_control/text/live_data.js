@@ -1,1 +1,0 @@
-utkarsha@regentmarkets.com
