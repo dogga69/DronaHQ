@@ -1,0 +1,272 @@
+{
+    "event_name": "enter_press",
+    "selector": "",
+    "event_type": "enter_press",
+    "actionflow_id": "af_text_c218RlxnzMpC6ju6m1taK_enter_press_enter_press",
+    "next_actions": [
+        "Rzms5Iqrx7MRYkb3n"
+    ],
+    "prev_actions": [],
+    "actions": [
+        {
+            "id": "Rzms5Iqrx7MRYkb3n",
+            "execution_editor_type": "JSEditor",
+            "execution_condition_variable_with_name": "",
+            "execution_condition_variable": "",
+            "execution_environments": [
+                "dev",
+                "beta",
+                "prod"
+            ],
+            "unique_name": "Triggerdataquery",
+            "label": "",
+            "fields": {
+                "name": {
+                    "key": "name",
+                    "value": "variable_R1tkJZ18gR3rQUjkL1759318112734",
+                    "name": "js_script_3",
+                    "label": "Select Data Query\n   Select Data Query",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "text",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                },
+                "override_dynamic_vars": {
+                    "key": "override_dynamic_vars",
+                    "value": false,
+                    "name": "",
+                    "label": "Override Dynamic Variables",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "boolean",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                },
+                "custom_parameters": {
+                    "key": "custom_parameters",
+                    "value": "{}",
+                    "name": "{}",
+                    "label": "Custom parameters\n    Custom parameters",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "object",
+                    "isDynamic": false,
+                    "editor_type": "JSEditor",
+                    "evaluateValue": true
+                },
+                "triggerDependencyDataQuery": {
+                    "key": "triggerDependencyDataQuery",
+                    "value": false,
+                    "name": "",
+                    "label": "Trigger Data Query Dependencies",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "boolean",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                }
+            },
+            "type": "TRIGGERDATAQUERY",
+            "outputs": [
+                {
+                    "key": "output",
+                    "value": "output",
+                    "isDefault": true
+                }
+            ],
+            "dual_output_action": true,
+            "wait_till_completion": true,
+            "offline_submission": false,
+            "downloadas_file": false,
+            "next_actions": [],
+            "prev_actions": [],
+            "actions_on_negative": [],
+            "actions_on_positive": [
+                {
+                    "id": "RDLEsZ5hj1x2cYw8m",
+                    "execution_editor_type": "JSEditor",
+                    "execution_condition_variable_with_name": "",
+                    "execution_condition_variable": "",
+                    "execution_environments": [
+                        "dev",
+                        "beta",
+                        "prod"
+                    ],
+                    "unique_name": "Toast",
+                    "label": "",
+                    "fields": {
+                        "type": {
+                            "key": "type",
+                            "value": "success",
+                            "name": "Success",
+                            "label": "Type\n   Type",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "text",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        },
+                        "title": {
+                            "key": "title",
+                            "value": "Perfect!",
+                            "name": "Perfect!",
+                            "label": "Title\n    Title",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "text",
+                            "isDynamic": false,
+                            "editor_type": "JSEditor",
+                            "evaluateValue": true
+                        },
+                        "message": {
+                            "key": "message",
+                            "value": "Good work, as always.",
+                            "name": "Good work, as always.",
+                            "label": "Message\n    Message",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "text",
+                            "isDynamic": false,
+                            "editor_type": "JSEditor",
+                            "evaluateValue": true
+                        },
+                        "position": {
+                            "key": "position",
+                            "value": "toast-bottom-full-width",
+                            "name": "Bottom Full Width",
+                            "label": "Position On Screen\n   Position On Screen",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "text",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        },
+                        "closeButton": {
+                            "key": "closeButton",
+                            "value": false,
+                            "name": "",
+                            "label": "Show Close Button",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "boolean",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        },
+                        "timeout": {
+                            "key": "timeout",
+                            "value": "5000",
+                            "name": "",
+                            "label": "Close After (in milliseconds)\n    Close After (in milliseconds)",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "number",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        }
+                    },
+                    "type": "TOAST",
+                    "outputs": [],
+                    "dual_output_action": false,
+                    "wait_till_completion": true,
+                    "offline_submission": false,
+                    "downloadas_file": false,
+                    "next_actions": [
+                        "RoCG5AQIgxOVp4u5c"
+                    ],
+                    "prev_actions": [
+                        "Rzms5Iqrx7MRYkb3n"
+                    ]
+                },
+                {
+                    "id": "RoCG5AQIgxOVp4u5c",
+                    "execution_editor_type": "JSEditor",
+                    "execution_condition_variable_with_name": "",
+                    "execution_condition_variable": "",
+                    "execution_environments": [
+                        "dev",
+                        "beta",
+                        "prod"
+                    ],
+                    "unique_name": "Refreshctrldata",
+                    "label": "",
+                    "fields": {
+                        "dhqCtrlIds": {
+                            "key": "dhqCtrlIds",
+                            "value": [
+                                "list_c188RAtT5uhnPNXo4cJ7v"
+                            ],
+                            "name": [
+                                "tablegrid1"
+                            ],
+                            "label": "Enter Control name\n  Enter Control name",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "string",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        },
+                        "triggerDependentDataQuery": {
+                            "key": "triggerDependentDataQuery",
+                            "value": true,
+                            "name": "",
+                            "label": "Trigger Dependent Data Query",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "boolean",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        },
+                        "tableGridPagination": {
+                            "key": "tableGridPagination",
+                            "value": false,
+                            "name": "",
+                            "label": "Maintain Pagination",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "boolean",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        }
+                    },
+                    "type": "REFRESHCTRLDATA",
+                    "outputs": [],
+                    "dual_output_action": false,
+                    "wait_till_completion": false,
+                    "offline_submission": false,
+                    "downloadas_file": false,
+                    "next_actions": [],
+                    "prev_actions": [
+                        "RDLEsZ5hj1x2cYw8m"
+                    ]
+                }
+            ]
+        }
+    ],
+    "category": "",
+    "interval": "",
+    "action_label": ""
+}

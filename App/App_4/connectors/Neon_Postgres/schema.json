@@ -1,0 +1,11 @@
+{
+    "cat_id": 100002,
+    "channel_id": 2,
+    "cat_auth_scheme": "db_connector",
+    "cat_desc": "",
+    "cat_icon": "./Images/dblogos/postgres.png",
+    "cat_name": "Neon_Postgres",
+    "cat_type": "postgres",
+    "db_type": "postgres",
+    "is_deleted": 1
+}

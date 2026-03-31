@@ -279,6 +279,11 @@
             "display_name": "created_at"
         },
         "teams": {
+            "1": {
+                "data_type": "string",
+                "display_name": "teams.1",
+                "field_type": "text"
+            },
             "controlIconUrl": "app/src/images/controls/checkbox.svg",
             "controlType": "Checkboxes",
             "control_display_name": "Checkboxes",
@@ -294,11 +299,6 @@
             "name": "teams",
             "id": "teams",
             "display_name": "teams"
-        },
-        "teams.1": {
-            "data_type": "string",
-            "display_name": "teams.1",
-            "field_type": "text"
         },
         "status": {
             "controlIconUrl": "app/src/images/controls/text.svg",
@@ -1045,6 +1045,7 @@
     "paginationLocation": "bottom",
     "PaginationSide": "serversidepagination",
     "paginationType": "limitOffsetBased",
+    "parent_id": "",
     "persist_filters": true,
     "persistantsorting": false,
     "placeholder": "Search",
@@ -1055,7 +1056,7 @@
     "required": false,
     "row_even_color": "var(--DHQ-neutral-bg-color)",
     "row_odd_color": "var(--DHQ-neutral-bg-color)",
-    "rowsVisible": 6,
+    "rowsVisible": 9,
     "search_show": true,
     "searchBarMinWidth": 200,
     "searchBarMinWidth_unit": "px",

@@ -142,6 +142,7 @@
     "max_lines": "",
     "min_char_limit_error": "Minimum character limit not met",
     "min_textarea_length": "",
+    "parent_id": "",
     "regex_error_msg": "",
     "regex_input": "",
     "required": false,
